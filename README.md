@@ -43,10 +43,9 @@ Engenheiro de Software Sênior e Arquiteto com vasta experiência na concepção
 
 > *Nota: Grande parte da minha atuação diária ocorre em repositórios privados enterprise e de clientes.*
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ALRSO85&theme=darkhub&column=4&margin-w=15" alt="Trophy GitHub" width="49%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ALRSO85&theme=dark" alt="Sequência de Contribuições" width="49%" />
-</p>
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ALRSO85&theme=dark" alt="Sequência de Contribuições" width="60%" />
+</div>
 
 ---
 
