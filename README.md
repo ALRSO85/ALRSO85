@@ -1,50 +1,73 @@
-# Hi there, I'm Alexandre Souza 👋
-### Senior Software Engineer | Software Architect | Cloud Architecture & AI
+<div align="center">
+  <h1>Alexandre Souza 👋</h1>
+  <p><strong>Senior Software Engineer | Software Architect | Cloud & Distributed Systems</strong></p>
+  
+  <a href="https://www.linkedin.com/in/alexandre-roberto-souza-software-engineer/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://devsforyou.com.br/">
+    <img src="https://img.shields.io/badge/Website-DevsForYou-0078D4?style=for-the-badge&logo=firefox&logoColor=white" alt="Website" />
+  </a>
+</div>
 
-Welcome to my GitHub profile! I specialize in designing and building scalable distributed systems, cloud infrastructure, and modern application architectures using robust enterprise stacks.
+<br />
 
----
+### 🎯 Sobre Mim
 
-### 🚀 Tech Stack & Skills
-
-**Languages & Frameworks**
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-
-**Cloud, DevOps & Infrastructure**
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-**Architecture & Concepts**
-Distributed Systems • Microservices • Enterprise Architecture • Cloud Native • AI Engineering
+Engenheiro de Software Sênior e Arquiteto com vasta experiência na concepção e implementação de soluções enterprise escaláveis, sistemas distribuídos resilientes e ecossistemas cloud-native. Especialista em ecossistema **.NET**, **Node.js** e boas práticas de engenharia de software.
 
 ---
 
-### 📊 GitHub Activity & Stats
+### 💻 Stack Técnica
 
-> *Note: Most of my active work and codebase reside in private repositories for client and enterprise applications.*
+| Domínio | Tecnologias & Ferramentas |
+| :--- | :--- |
+| **Linguagens** | C#, TypeScript, JavaScript, SQL, HTML5/CSS3 |
+| **Frameworks & Runtimes** | .NET Core / .NET 10, ASP.NET MVC, Node.js, Express |
+| **Frontend & Mobile UI** | Bootstrap, Mobile-First Responsive Design |
+| **Arquitetura & Design** | Microservices, Event-Driven Architecture, Domain-Driven Design (DDD), Clean Architecture, REST APIs |
+| **Cloud & DevOps** | Microsoft Azure, AWS, Docker, CI/CD Pipelines |
+| **Bancos de Dados** | SQL Server, PostgreSQL, Redis |
+
+---
+
+### 🧱 Princípios de Arquitetura & Engenharia
+
+* **High Performance & Modernização:** Otimização contínua de rotas, queries e componentes para aplicações enterprise e legadas.
+* **Mobile-First & UX Enterprise:** Construção de interfaces responsivas, acessíveis e alinhadas aos padrões visuais corporativos.
+* **Resiliência Distribuída:** Implementação de mensageria, caching distribuído e práticas robustas de segurança.
+
+---
+
+### 📊 Estatísticas do GitHub
+
+> *Nota: Grande parte da minha atuação diária ocorre em repositórios privados enterprise e de clientes.*
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ALRSO85&show_icons=true&theme=dark&count_private=true&include_all_commits=true" alt="Alexandre's GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-languages/?username=ALRSO85&layout=compact&theme=dark" alt="Top Languages" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ALRSO85&show_icons=true&theme=dark&count_private=true&include_all_commits=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" alt="Estatísticas do GitHub" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-languages/?username=ALRSO85&layout=compact&theme=dark" alt="Linguagens mais utilizadas" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ALRSO85&theme=dark" alt="Sequência de Contribuições" />
 </div>
 
 ---
 
-### 📌 Highlights & Case Studies
+### 🛠️ Estudos de Caso & Soluções (Escopo de Projetos)
 
-While my daily enterprise code repositories are private, here is an overview of the solutions and architecture models I build:
+Como os repositórios corporativos são privados, abaixo estão alguns destaques dos tipos de soluções arquitetadas e desenvolvidas:
 
-* 🏢 **Enterprise & Distributed Systems:** Scalable microservices, RESTful APIs, and event-driven architectures utilizing .NET and Node.js.
-* ☁️ **Cloud Infrastructure:** Serverless and containerized deployments leveraging AWS and Microsoft Azure.
-* 🤖 **AI Integration:** Implementing AI-driven engineering tools and workflow automation into modern software architecture.
+* 🏢 **Plataformas Enterprise .NET:** Arquitetura e modernização de ecossistemas web com ASP.NET MVC e APIs RESTful, priorizando alta disponibilidade e clean code.
+* ⚡ **Design Mobile-First Corporativo:** Desenvolvimento de layouts fluidos e componentes focados na experiência do usuário e em requisitos institucionais.
+* ☁️ **Infraestrutura Cloud Native:** Containerização com Docker e integração contínua em ambientes Azure e AWS.
 
 ---
 
-### 📬 Connect with Me
+### 📬 Vamos conversar?
 
-* 🌐 **Website:** [devsforyou.com.br](https://devsforyou.com.br/)
-* 💼 **LinkedIn:** [Alexandre Souza](https://www.linkedin.com/in/alexandre-roberto-souza-software-engineer/)
+- **Empresa / Consultoria:** [DevsForYou](https://devsforyou.com.br/)
+- **LinkedIn:** [Alexandre Souza](https://www.linkedin.com/in/alexandre-roberto-souza-software-engineer/)
+- **Localização:** Belo Horizonte - Brasil
