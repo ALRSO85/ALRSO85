@@ -43,16 +43,10 @@ Engenheiro de Software Sênior e Arquiteto com vasta experiência na concepção
 
 > *Nota: Grande parte da minha atuação diária ocorre em repositórios privados enterprise e de clientes.*
 
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ALRSO85&show_icons=true&theme=dark&count_private=true&include_all_commits=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" alt="Estatísticas do GitHub" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-languages/?username=ALRSO85&layout=compact&theme=dark" alt="Linguagens mais utilizadas" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ALRSO85&theme=dark" alt="Sequência de Contribuições" />
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ALRSO85&show_icons=true&theme=dark&count_private=true&include_all_commits=true" alt="Estatísticas do GitHub" width="49%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ALRSO85&theme=dark" alt="Sequência de Contribuições" width="49%" />
+</p>
 
 ---
 
