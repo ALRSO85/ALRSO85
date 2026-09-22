@@ -184,6 +184,16 @@ Autenticação, autorização, proteção de dados e rastreabilidade devem fazer
 
 ---
 
+# 📈 Atividade no GitHub
+
+> Parte da minha atuação profissional ocorre em repositórios privados e ambientes corporativos, portanto o gráfico abaixo representa principalmente minha atividade pública no GitHub.
+
+<div align="center">
+
+[![Gráfico de atividade do GitHub](https://github-readme-activity-graph.vercel.app/graph?username=ALRSO85&theme=github-dark&hide_border=true&area=true)](https://github.com/ALRSO85)
+
+</div>
+
 # 🧪 Áreas de Interesse
 
 Atualmente tenho especial interesse em:
