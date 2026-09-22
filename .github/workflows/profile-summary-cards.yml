@@ -1,6 +1,12 @@
 name: GitHub Profile Summary Cards
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+      - .github/workflows/profile-summary-cards.yml
   workflow_dispatch:
   schedule:
     - cron: "20 3 * * *"
@@ -20,7 +26,7 @@ jobs:
       - name: Generate profile cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || github.token }}
         with:
           USERNAME: ALRSO85
           BRANCH_NAME: main
