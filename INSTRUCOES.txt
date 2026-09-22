@@ -1,0 +1,22 @@
+CORREÇÃO DO GRÁFICO DE ATIVIDADE
+
+Arquivos:
+- README.md
+- .github/workflows/profile-summary-cards.yml
+
+Passos no GitHub:
+1. Substitua o README.md pelo arquivo deste pacote.
+2. Adicione .github/workflows/profile-summary-cards.yml ao repositório.
+3. No GitHub, crie um Personal Access Token (PAT) somente com as permissões necessárias para leitura dos dados do perfil/repositórios que você deseja incluir.
+4. Vá em:
+   Settings > Secrets and variables > Actions > New repository secret
+5. Crie o secret:
+   SUMMARY_GITHUB_TOKEN
+6. Cole o PAT como valor.
+7. Vá em Actions > GitHub Profile Summary Cards > Run workflow.
+8. Após a execução, o workflow criará:
+   profile-summary-card-output/github_dark/0-profile-details.svg
+9. O README passará a carregar esse SVG diretamente do próprio repositório.
+
+Observação:
+O gráfico não depende mais de github-readme-activity-graph.vercel.app em tempo real.

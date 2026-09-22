@@ -186,13 +186,19 @@ Autenticação, autorização, proteção de dados e rastreabilidade devem fazer
 
 # 📈 Atividade no GitHub
 
-> Parte da minha atuação profissional ocorre em repositórios privados e ambientes corporativos, portanto o gráfico abaixo representa principalmente minha atividade pública no GitHub.
+> Parte da minha atuação profissional ocorre em repositórios privados e ambientes corporativos. O gráfico abaixo é gerado pelo próprio repositório via GitHub Actions, evitando depender de um serviço externo em tempo real.
 
 <div align="center">
 
-[![Gráfico de atividade do GitHub](https://github-readme-activity-graph.vercel.app/graph?username=ALRSO85&theme=github-dark&hide_border=true&area=true)](https://github.com/ALRSO85)
+[![Resumo de atividade do GitHub](./profile-summary-card-output/github_dark/0-profile-details.svg)](https://github.com/ALRSO85)
 
 </div>
+
+<p align="center">
+  <a href="https://github.com/ALRSO85">
+    Ver mapa completo de contribuições no GitHub
+  </a>
+</p>
 
 # 🧪 Áreas de Interesse
 
