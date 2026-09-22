@@ -24,19 +24,19 @@ Também desenvolvo produtos pela **[DevsForYou](https://devsforyou.com.br/)**, a
 
 ### [SportsForYou](https://sportsforyou.com.br/)
 
-Plataforma para o ecossistema esportivo, com recursos para atletas, organizadores de eventos e outros participantes.
+Plataforma digital para o ecossistema esportivo, conectando atletas, organizadores de eventos, parceiros e outros participantes. Inclui gestão de eventos, perfis personalizados, integrações externas e autenticação e autorização.
 
-`C#` `ASP.NET Core` `.NET 10` `MySQL` `Docker`
+`C#` `ASP.NET Core` `.NET 10` `MySQL` `Bootstrap` `Docker` `Linux`
 
 ### [WorkTime](https://worktime.devforyou.com.br/)
 
-Plataforma de gestão e conciliação de horas que reúne informações de jornada, equipes, férias, auditoria e relatórios, com integrações corporativas.
+Plataforma para conciliar e gerir apontamentos de horas, reunindo dados de jornada, equipes, férias, fechamentos, auditoria e relatórios. Integrações previstas ou implementadas incluem Ahgora, Businessmap/Kanbanize e Jira.
 
-`C#` `.NET 10` `ASP.NET Core` `Entity Framework Core` `SQL Server`
+`C#` `.NET 10` `ASP.NET Core` `EF Core` `SQL Server` `Bootstrap`
 
 ### FingerBridge
 
-Framework para integrar leitores biométricos e SDKs de diferentes fabricantes por meio de uma camada comum.
+Framework que abstrai SDKs de biometria digital e oferece uma camada comum para cadastro e validação de digitais em dispositivos de diferentes fabricantes.
 
 `C#` `.NET Framework` `WinForms` `Biometria`
 
@@ -44,9 +44,14 @@ Framework para integrar leitores biométricos e SDKs de diferentes fabricantes p
 
 - **Desenvolvimento:** C#, .NET, ASP.NET Core, APIs REST, Node.js, JavaScript e TypeScript
 - **Arquitetura:** DDD, Clean Architecture, arquitetura modular, microsserviços e sistemas orientados a eventos
+- **Web:** HTML, CSS, Bootstrap e interfaces responsivas
 - **Dados:** SQL Server, MySQL, PostgreSQL, Redis e Entity Framework Core
 - **Plataforma:** Docker, Linux, Azure, AWS, Cloudflare e CI/CD
-- **Engenharia:** modernização de sistemas, integrações, desempenho, resiliência e observabilidade
+- **Engenharia:** modernização de sistemas, integrações, desempenho, resiliência, segurança e observabilidade
+
+## Temas de interesse
+
+Sistemas distribuídos, SaaS, inteligência artificial aplicada ao desenvolvimento, automação, infraestrutura self-hosted, cloud computing, observabilidade e DevOps.
 
 ## GitHub
 
