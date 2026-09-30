@@ -2,9 +2,9 @@
 
 # Alexandre Souza
 
-### Arquiteto de Software · Engenheiro de Software Sênior
+### Software Architect · Senior Software Engineer
 
-**.NET · Sistemas distribuídos · Arquitetura de software · Produtos digitais**
+**.NET · Distributed Systems · Cloud Architecture · Digital Products**
 
 Desenho e desenvolvo sistemas e produtos digitais, da arquitetura à operação. Tenho foco no ecossistema .NET, modernização de aplicações e soluções preparadas para evoluir.
 
