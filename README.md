@@ -42,7 +42,7 @@ Gestão e conciliação de horas, jornadas, equipes, férias, fechamentos, audit
 
 - **Integrações:** Businessmap/Kanbanize, com sincronização de apontamentos, e Ahgora, com importação de horas.
 - **Stack:** `C#` `.NET 10` `ASP.NET Core` `EF Core` `SQL Server`
-- [Entrar no WorkTime](https://worktime.devforyou.com.br/account/login)
+- [Entrar no WorkTime](https://worktime.devforyou.com.br/account/login) · [Ver showcase técnico](https://github.com/ALRSO85/worktime-showcase)
 
 ---
 
