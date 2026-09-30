@@ -68,7 +68,7 @@ Produtos digitais e projetos que mostram minha atuação em arquitetura, desenvo
 
 ## Engenharia de IA
 
-Atualmente, aprofundo meus estudos em Engenharia de IA e suas aplicações no desenvolvimento de software e na criação de produtos digitais.
+Tenho aprofundado meus estudos em Engenharia de IA. No desenvolvimento de software, uso fluxos assistidos por IA para apoiar documentação, análise de logs e planejamento arquitetural, como detalhado no [showcase técnico do SportsForYou](https://github.com/ALRSO85/sportsforyou-showcase).
 
 ## Competências técnicas
 
