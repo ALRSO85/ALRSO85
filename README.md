@@ -79,6 +79,12 @@ Atualmente, aprofundo meus estudos em Engenharia de IA e suas aplicações no de
 - **Plataforma:** Docker, Linux, Azure, AWS, Cloudflare e CI/CD
 - **Engenharia:** modernização de sistemas, integrações, desempenho, resiliência, segurança e observabilidade
 
+## Segurança aplicada
+
+- **Doguinhos 220v:** senhas com bcrypt, proteção CSRF, sessões administrativas com cookies HttpOnly/SameSite, rate limiting e validação de uploads.
+- **WorkTime:** ações protegidas contra CSRF, cookies de autenticação HttpOnly e políticas configuráveis de expiração, SameSite e Secure, além de rate limiting.
+- **ReleaseHub:** validação de hashes SHA-256 e políticas configuráveis para exigir assinatura, proveniência e SBOM de artefatos.
+
 ## Temas de interesse
 
 Sistemas distribuídos, SaaS, inteligência artificial aplicada ao desenvolvimento, automação, infraestrutura self-hosted, cloud computing, observabilidade e DevOps.
