@@ -69,7 +69,7 @@ Produtos digitais e projetos que mostram minha atuação em arquitetura, desenvo
 
 ## Engenharia de IA
 
-Tenho aprofundado meus estudos em Engenharia de IA. No desenvolvimento de software, uso fluxos assistidos por IA para apoiar documentação, análise de logs e planejamento arquitetural, como detalhado no [showcase técnico do SportsForYou](https://github.com/ALRSO85/sportsforyou-showcase).
+Tenho aprofundado meus estudos em Engenharia de IA e experimentado LLMs em fluxos de desenvolvimento. No [showcase técnico do SportsForYou](https://github.com/ALRSO85/sportsforyou-showcase#ai-assisted-engineering), documento aplicações de apoio à revisão de código, documentação, análise de logs e planejamento de arquitetura.
 
 ## Competências técnicas
 
