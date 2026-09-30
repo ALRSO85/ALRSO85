@@ -62,7 +62,7 @@ Produtos digitais e projetos que mostram minha atuação em arquitetura, desenvo
 
 ### Projeto open source
 
-**[FingerBridge](https://github.com/ALRSO85/fingerbridge)** — Framework que unifica o acesso a SDKs de biometria digital para cadastro e validação de digitais em dispositivos de diferentes fabricantes.
+**[FingerBridge](https://github.com/ALRSO85/fingerbridge)** — Camada de integração biométrica para aplicações Windows em .NET Framework 4.8, com interface comum e providers independentes para leitores de diferentes fabricantes.
 
 `C#` `.NET Framework` `WinForms` `Biometria` · [Explorar repositório](https://github.com/ALRSO85/fingerbridge)
 
