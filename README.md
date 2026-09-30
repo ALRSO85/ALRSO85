@@ -32,7 +32,7 @@ Plataforma esportiva para atletas, organizadores, comunidades e parceiros, com e
 
 - **Engenharia:** arquitetura modular, qualidade automatizada, governança de dados, acessibilidade e SEO.
 - **Stack:** `C#` `ASP.NET Core` `.NET 10` `MySQL` `Docker`
-- [Acessar produto](https://sportsforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/sportsforyou-showcase)
+- [Acessar produto](https://sportsforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/sportsforyou-showcase) · [Artigo sobre arquitetura modular](https://pt.linkedin.com/pulse/arquitetura-modular-aplicada-uma-plataforma-digital-para-souza-g8btf)
 
 ---
 
