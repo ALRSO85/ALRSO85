@@ -24,27 +24,35 @@ Sou engenheiro de software e arquiteto de software. Trabalho com concepção, ev
 
 Também desenvolvo produtos pela **[DevsForYou](https://devsforyou.com.br/)**, aplicando engenharia de software à criação de soluções digitais.
 
-## Projetos
+## Projetos em destaque
 
-### [SportsForYou](https://sportsforyou.com.br/)
+Produtos digitais e projetos que mostram minha atuação em arquitetura, desenvolvimento e integração de sistemas.
 
-Plataforma digital para o ecossistema esportivo, conectando atletas, organizadores de eventos, parceiros e outros participantes. Inclui gestão de eventos, perfis personalizados, integrações externas e autenticação e autorização.
-
-**Showcase técnico:** [arquitetura, módulos e práticas de engenharia](https://github.com/ALRSO85/sportsforyou-showcase).
-
-`C#` `ASP.NET Core` `.NET 10` `MySQL` `Bootstrap` `Docker` `Linux`
-
-### [WorkTime](https://worktime.devforyou.com.br/)
-
-Plataforma para conciliar e gerir apontamentos de horas, reunindo dados de jornada, equipes, férias, fechamentos, auditoria e relatórios. Integrações previstas ou implementadas incluem Ahgora, Businessmap/Kanbanize e Jira.
-
-`C#` `.NET 10` `ASP.NET Core` `EF Core` `SQL Server` `Bootstrap`
-
-### [FingerBridge](https://github.com/ALRSO85/fingerbridge)
-
-Framework que abstrai SDKs de biometria digital e oferece uma camada comum para cadastro e validação de digitais em dispositivos de diferentes fabricantes.
-
-`C#` `.NET Framework` `WinForms` `Biometria`
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://sportsforyou.com.br/">SportsForYou</a></h3>
+      <p>Plataforma para o ecossistema esportivo, conectando atletas, organizadores, comunidades e parceiros por meio de eventos, perfis e integrações.</p>
+      <p><strong>Engenharia:</strong> arquitetura modular, qualidade automatizada, governança de dados, acessibilidade e SEO.</p>
+      <p><code>C#</code> <code>ASP.NET Core</code> <code>.NET 10</code> <code>MySQL</code> <code>Docker</code></p>
+      <p><a href="https://sportsforyou.com.br/">Acessar produto</a> · <a href="https://github.com/ALRSO85/sportsforyou-showcase">Ver showcase técnico</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://worktime.devforyou.com.br/">WorkTime</a></h3>
+      <p>Plataforma de gestão e conciliação de apontamentos de horas, com jornadas, equipes, férias, fechamentos, auditoria e relatórios.</p>
+      <p><strong>Integrações previstas ou implementadas:</strong> Ahgora, Businessmap/Kanbanize e Jira.</p>
+      <p><code>C#</code> <code>.NET 10</code> <code>ASP.NET Core</code> <code>EF Core</code> <code>SQL Server</code></p>
+      <p><a href="https://worktime.devforyou.com.br/">Acessar WorkTime</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3><a href="https://github.com/ALRSO85/fingerbridge">FingerBridge</a></h3>
+      <p>Framework open source que unifica o acesso a SDKs de biometria digital para cadastro e validação de digitais em dispositivos de diferentes fabricantes.</p>
+      <p><code>C#</code> <code>.NET Framework</code> <code>WinForms</code> <code>Biometria</code> · <a href="https://github.com/ALRSO85/fingerbridge">Explorar repositório</a></p>
+    </td>
+  </tr>
+</table>
 
 ## Experiência técnica
 
