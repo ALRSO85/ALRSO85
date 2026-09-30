@@ -80,8 +80,8 @@ Tenho aprofundado meus estudos em Engenharia de IA e experimentado LLMs em fluxo
       <code>C#</code> <code>.NET</code> <code>ASP.NET Core</code> <code>Node.js</code> <code>APIs REST</code>
     </td>
     <td width="50%" valign="top">
-      <h3>Arquitetura</h3>
-      <code>DDD</code> <code>Clean Architecture</code> <code>Sistemas modulares</code> <code>Microsserviços</code> <code>Eventos</code>
+      <h3>Design de soluções e arquitetura</h3>
+      <code>Design de projetos</code> <code>DDD</code> <code>Clean Architecture</code> <code>Sistemas modulares</code> <code>Microsserviços</code> <code>Eventos</code>
     </td>
   </tr>
   <tr>
@@ -100,8 +100,18 @@ Tenho aprofundado meus estudos em Engenharia de IA e experimentado LLMs em fluxo
       <code>Docker</code> <code>Linux</code> <code>Azure</code> <code>AWS</code> <code>Cloudflare</code> <code>CI/CD</code>
     </td>
     <td valign="top">
-      <h3>Engenharia</h3>
-      <code>Modernização</code> <code>Integrações</code> <code>Desempenho</code> <code>Resiliência</code> <code>Segurança</code> <code>Observabilidade</code>
+      <h3>Segurança</h3>
+      <code>CSRF</code> <code>Cookies seguros</code> <code>Rate limiting</code> <code>SHA-256</code> <code>SBOM</code> <code>Dados biométricos</code>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <h3>Engenharia de software</h3>
+      <code>Modernização</code> <code>Integrações</code> <code>Desempenho</code> <code>Resiliência</code> <code>Observabilidade</code>
+    </td>
+    <td valign="top">
+      <h3>Engenharia de IA</h3>
+      <code>LLMs</code> <code>Revisão de código</code> <code>Documentação</code> <code>Análise de logs</code> <code>Planejamento arquitetural</code>
     </td>
   </tr>
 </table>
