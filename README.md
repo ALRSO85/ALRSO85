@@ -77,7 +77,7 @@ Tenho aprofundado meus estudos em engenharia de IA e explorado o uso de LLMs no 
 ## Competências técnicas
 
 - **Backend e APIs:** `C#` `.NET` `ASP.NET Core` `Node.js` `APIs REST`
-- **Design de soluções e arquitetura:** `Design de projetos` `DDD` `Clean Architecture` `Sistemas modulares` `Microsserviços` `Eventos`
+- **Design de software e arquitetura:** `DDD` `Clean Architecture` `Arquitetura modular` `Microsserviços` `Sistemas orientados a eventos`
 - **Dados:** `SQL Server` `MySQL` `PostgreSQL` `Redis` `Entity Framework Core`
 - **Web:** `HTML` `CSS` `Bootstrap` `JavaScript` `TypeScript` `Interfaces responsivas`
 - **Cloud e entrega:** `Docker` `Linux` `Azure` `AWS` `Cloudflare` `CI/CD`
