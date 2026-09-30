@@ -2,11 +2,13 @@
 
 # Alexandre Souza
 
-### Software Architect · Senior Software Engineer
+### Software Architect · Senior Software Engineer · AI Engineer
 
-**.NET · Distributed Systems · Cloud Architecture · Digital Products**
+**.NET · Distributed Systems · Cloud Architecture · AI Engineering · Digital Products**
 
 Desenho e desenvolvo sistemas e produtos digitais, da arquitetura à operação. Tenho foco no ecossistema .NET, modernização de aplicações e soluções preparadas para evoluir.
+
+Também venho aprofundando meus estudos em engenharia de IA e aplicações práticas de inteligência artificial no desenvolvimento de software.
 
 [LinkedIn](https://www.linkedin.com/in/alexandre-roberto-souza-software-engineer/) · [DevsForYou](https://devsforyou.com.br/) · [SportsForYou](https://sportsforyou.com.br/)
 
