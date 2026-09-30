@@ -66,7 +66,7 @@ Produtos digitais e projetos que mostram minha atuação em arquitetura, desenvo
 
 ## Engenharia de IA
 
-AI Engineering é meu foco atual de evolução técnica. Tenho dedicado meus estudos a aplicações práticas de inteligência artificial no desenvolvimento de software e em produtos digitais.
+Atualmente, aprofundo meus estudos em Engenharia de IA e suas aplicações no desenvolvimento de software e na criação de produtos digitais.
 
 ## Competências técnicas
 
