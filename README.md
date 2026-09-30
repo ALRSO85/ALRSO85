@@ -36,11 +36,11 @@ Produtos digitais e projetos que mostram minha atuação em arquitetura, desenvo
       <p><a href="https://sportsforyou.com.br/">Acessar produto</a> · <a href="https://github.com/ALRSO85/sportsforyou-showcase">Ver showcase técnico</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://worktime.devforyou.com.br/">WorkTime</a></h3>
+      <h3><a href="https://worktime.devforyou.com.br/account/login">WorkTime</a></h3>
       <p>Plataforma de gestão e conciliação de apontamentos de horas, com jornadas, equipes, férias, fechamentos, auditoria e relatórios.</p>
       <p><strong>Integrações no escopo:</strong> Ahgora, Businessmap/Kanbanize e Jira.</p>
       <p><code>C#</code> <code>.NET 10</code> <code>ASP.NET Core</code> <code>EF Core</code> <code>SQL Server</code></p>
-      <p><a href="https://worktime.devforyou.com.br/">Entrar no WorkTime</a></p>
+      <p><a href="https://worktime.devforyou.com.br/account/login">Entrar no WorkTime</a></p>
     </td>
   </tr>
   <tr>
