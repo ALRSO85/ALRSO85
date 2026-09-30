@@ -46,7 +46,9 @@ Produtos digitais e projetos que mostram minha atuação em arquitetura, desenvo
   <tr>
     <td valign="top">
       <h3><a href="https://doguinhos220v.com.br/">Doguinhos 220v</a></h3>
-      <p>Portal de conteúdo pet com artigos sobre cuidados, agenda de eventos, vídeos e seleção de produtos. Desenvolvido por mim pela DevsForYou.</p>
+      <p>Portal pet com artigos, eventos, vídeos e recomendações de produtos. Desenvolvido por mim pela DevsForYou.</p>
+      <p><strong>Engenharia:</strong> aplicação modular em PHP, painel administrativo, persistência JSON, SEO técnico e acessibilidade.</p>
+      <p><code>PHP 8.5</code> <code>Bootstrap 5</code> <code>JavaScript</code> <code>JSON</code></p>
       <p><a href="https://doguinhos220v.com.br/">Acessar Doguinhos 220v</a></p>
     </td>
     <td valign="top">
