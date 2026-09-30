@@ -73,12 +73,38 @@ Tenho aprofundado meus estudos em Engenharia de IA. No desenvolvimento de softwa
 
 ## Competências técnicas
 
-- **Desenvolvimento:** C#, .NET, ASP.NET Core, APIs REST, Node.js, JavaScript e TypeScript
-- **Arquitetura:** DDD, Clean Architecture, arquitetura modular, microsserviços e sistemas orientados a eventos
-- **Web:** HTML, CSS, Bootstrap e interfaces responsivas
-- **Dados:** SQL Server, MySQL, PostgreSQL, Redis e Entity Framework Core
-- **Plataforma:** Docker, Linux, Azure, AWS, Cloudflare e CI/CD
-- **Engenharia:** modernização de sistemas, integrações, desempenho, resiliência, segurança e observabilidade
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Backend e APIs</h3>
+      <code>C#</code> <code>.NET</code> <code>ASP.NET Core</code> <code>Node.js</code> <code>APIs REST</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Arquitetura</h3>
+      <code>DDD</code> <code>Clean Architecture</code> <code>Sistemas modulares</code> <code>Microsserviços</code> <code>Eventos</code>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <h3>Dados</h3>
+      <code>SQL Server</code> <code>MySQL</code> <code>PostgreSQL</code> <code>Redis</code> <code>Entity Framework Core</code>
+    </td>
+    <td valign="top">
+      <h3>Web</h3>
+      <code>HTML</code> <code>CSS</code> <code>Bootstrap</code> <code>JavaScript</code> <code>TypeScript</code> <code>Interfaces responsivas</code>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <h3>Cloud e entrega</h3>
+      <code>Docker</code> <code>Linux</code> <code>Azure</code> <code>AWS</code> <code>Cloudflare</code> <code>CI/CD</code>
+    </td>
+    <td valign="top">
+      <h3>Engenharia</h3>
+      <code>Modernização</code> <code>Integrações</code> <code>Desempenho</code> <code>Resiliência</code> <code>Segurança</code> <code>Observabilidade</code>
+    </td>
+  </tr>
+</table>
 
 ## Segurança aplicada
 
