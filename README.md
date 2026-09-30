@@ -44,10 +44,16 @@ Produtos digitais e projetos que mostram minha atuação em arquitetura, desenvo
     </td>
   </tr>
   <tr>
-    <td colspan="2" valign="top">
+    <td valign="top">
       <h3><a href="https://doguinhos220v.com.br/">Doguinhos 220v</a></h3>
       <p>Portal de conteúdo pet com artigos sobre cuidados, agenda de eventos, vídeos e seleção de produtos. Desenvolvido por mim pela DevsForYou.</p>
       <p><a href="https://doguinhos220v.com.br/">Acessar Doguinhos 220v</a></p>
+    </td>
+    <td valign="top">
+      <h3><a href="https://releasehub.devforyou.com.br/">ReleaseHub</a></h3>
+      <p>Plataforma self-hosted para governança de mudanças e orquestração de releases em ambientes privados ou híbridos, conectando aprovações, execução, validação e auditoria.</p>
+      <p><code>.NET 10</code> <code>ASP.NET Core</code> <code>Docker</code> <code>SQL Server</code></p>
+      <p><a href="https://releasehub.devforyou.com.br/">Acessar plataforma</a></p>
     </td>
   </tr>
 </table>
