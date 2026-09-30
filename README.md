@@ -4,7 +4,7 @@
 
 # Alexandre Souza
 
-### Software Architect · Senior Software Engineer · AI Engineer
+**Software Architect · Senior Software Engineer · AI Engineer**
 
 **.NET · Distributed Systems · Cloud Architecture · AI Engineering · Digital Products**
 
