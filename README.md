@@ -90,7 +90,7 @@ Tenho aprofundado meus estudos em engenharia de IA e explorado o uso de LLMs no 
 - **Doguinhos 220v:** senhas com bcrypt, proteção CSRF, sessões administrativas com cookies HttpOnly/SameSite, rate limiting e validação de uploads.
 - **WorkTime:** ações protegidas contra CSRF, cookies de autenticação HttpOnly e políticas configuráveis de expiração, SameSite e Secure, além de rate limiting.
 - **ReleaseHub:** validação de hashes SHA-256 e políticas configuráveis para exigir assinatura, proveniência e SBOM de artefatos.
-- **[FingerBridge](https://github.com/ALRSO85/fingerbridge):** diretrizes documentadas para proteger dados biométricos, como não armazenar imagens nem registrar templates em logs e criptografar templates persistidos.
+- **[FingerBridge](https://github.com/ALRSO85/fingerbridge):** [política de segurança e relato privado](https://github.com/ALRSO85/fingerbridge/blob/main/SECURITY.md); orientações para não armazenar imagens biométricas nem registrar templates em logs e criptografar templates persistidos.
 
 ## Temas de interesse
 
