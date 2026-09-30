@@ -54,6 +54,7 @@ Produtos digitais e projetos que mostram minha atuação em arquitetura, desenvo
     <td valign="top">
       <h3><a href="https://releasehub.devforyou.com.br/">ReleaseHub</a></h3>
       <p>Plataforma self-hosted para governança de mudanças e orquestração de releases em ambientes privados ou híbridos, conectando aprovações, execução, validação e auditoria.</p>
+      <p><strong>Engenharia:</strong> rastreabilidade de artefatos e políticas de integridade para releases.</p>
       <p><code>.NET 10</code> <code>ASP.NET Core</code> <code>Docker</code> <code>SQL Server</code></p>
       <p><a href="https://releasehub.devforyou.com.br/">Entrar no ReleaseHub</a></p>
     </td>
