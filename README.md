@@ -62,7 +62,7 @@ Plataforma self-hosted para governança e execução de releases, com aprovaçõ
 
 - **Engenharia:** rastreabilidade de artefatos e políticas de integridade para releases.
 - **Stack:** `.NET 10` `ASP.NET Core` `Docker` `SQL Server`
-- [Entrar no ReleaseHub](https://releasehub.devforyou.com.br/)
+- [Entrar no ReleaseHub](https://releasehub.devforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/releasehub-showcase)
 
 ### Projeto open source
 
