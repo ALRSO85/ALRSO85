@@ -129,7 +129,7 @@ Sistemas distribuídos, SaaS, inteligência artificial aplicada ao desenvolvimen
 
 ## GitHub
 
-Parte da minha atuação acontece em repositórios privados e ambientes corporativos. O cartão de atividade abaixo é gerado por uma GitHub Action neste repositório.
+Parte da minha atuação acontece em repositórios privados e ambientes corporativos. O cartão abaixo é gerado por uma GitHub Action e pode não representar toda essa atividade.
 
 <div align="center">
 
