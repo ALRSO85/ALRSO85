@@ -1,22 +1,33 @@
-CORREÇÃO DO GRÁFICO DE ATIVIDADE
+RESUMO DE ATIVIDADE DO GITHUB
 
-Arquivos:
-- README.md
-- .github/workflows/profile-summary-cards.yml
+O cartão exibido no README é gerado pela GitHub Action definida em:
+.github/workflows/profile-summary-cards.yml
 
-Passos no GitHub:
-1. Substitua o README.md pelo arquivo deste pacote.
-2. Adicione .github/workflows/profile-summary-cards.yml ao repositório.
-3. No GitHub, crie um Personal Access Token (PAT) somente com as permissões necessárias para leitura dos dados do perfil/repositórios que você deseja incluir.
-4. Vá em:
-   Settings > Secrets and variables > Actions > New repository secret
-5. Crie o secret:
-   SUMMARY_GITHUB_TOKEN
-6. Cole o PAT como valor.
-7. Vá em Actions > GitHub Profile Summary Cards > Run workflow.
-8. Após a execução, o workflow criará:
-   profile-summary-card-output/github_dark/0-profile-details.svg
-9. O README passará a carregar esse SVG diretamente do próprio repositório.
+ATUALIZAÇÃO
 
-Observação:
-O gráfico não depende mais de github-readme-activity-graph.vercel.app em tempo real.
+- A Action executa quando README.md ou o workflow são alterados na branch main.
+- Também pode ser iniciada manualmente em Actions > GitHub Profile Summary Cards > Run workflow.
+- Há uma atualização diária agendada para 03:20 UTC (00:20 no horário de Brasília).
+- Os arquivos gerados são gravados em profile-summary-card-output/ e enviados para a branch main.
+- O workflow gera todos os temas, incluindo github (claro) e github_dark (escuro).
+- O README usa a preferência de cor do visitante para escolher o cartão correspondente.
+
+TOKEN
+
+O workflow usa o secret SUMMARY_GITHUB_TOKEN quando configurado e, na ausência dele,
+usa o GITHUB_TOKEN fornecido pelo GitHub Actions. Configure um token pessoal se a
+Action precisar ler repositórios aos quais o token padrão não tem acesso.
+
+Para limitar o acesso, prefira um fine-grained personal access token com permissão
+somente de leitura nos repositórios necessários. Guarde-o em Settings > Secrets and
+variables > Actions com o nome SUMMARY_GITHUB_TOKEN. Nunca coloque o token no README,
+no workflow ou em outro arquivo versionado.
+
+VERIFICAÇÃO
+
+Em Actions, abra a execução mais recente de GitHub Profile Summary Cards. Se falhar,
+consulte o log da etapa Generate profile cards e confira se o secret está válido e se
+o workflow tem permissão de escrita no conteúdo do repositório.
+
+Documentação do gerador:
+https://github.com/vn7n24fzkq/github-profile-summary-cards

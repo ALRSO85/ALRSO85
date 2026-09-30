@@ -12,7 +12,7 @@ Desenho e desenvolvo sistemas e produtos digitais, da arquitetura à operação.
 
 [LinkedIn](https://www.linkedin.com/in/alexandre-roberto-souza-software-engineer/) · [DevsForYou](https://devsforyou.com.br/) · [SportsForYou](https://sportsforyou.com.br/)
 
-**Navegação:** [Projetos](#projetos-em-destaque) · [AI Engineering](#ai-engineering) · [Experiência](#experi%C3%AAncia-t%C3%A9cnica) · [GitHub](#github) · [Contato](#contato)
+**Navegação:** [Projetos](#projetos-em-destaque) · [Engenharia de IA](#engenharia-de-ia) · [Competências](#compet%C3%AAncias-t%C3%A9cnicas) · [GitHub](#github) · [Contato](#contato)
 
 </div>
 
@@ -20,9 +20,7 @@ Desenho e desenvolvo sistemas e produtos digitais, da arquitetura à operação.
 
 ## Sobre
 
-Sou engenheiro de software e arquiteto de software. Trabalho com concepção, evolução e modernização de aplicações corporativas e produtos digitais — de decisões de arquitetura e implementação a integrações e infraestrutura.
-
-Também desenvolvo produtos pela **[DevsForYou](https://devsforyou.com.br/)**, aplicando engenharia de software à criação de soluções digitais.
+Atuo em aplicações corporativas e também desenvolvo produtos pela **[DevsForYou](https://devsforyou.com.br/)**. Meu trabalho passa por arquitetura, implementação, integrações e infraestrutura.
 
 ## Projetos em destaque
 
@@ -40,7 +38,7 @@ Produtos digitais e projetos que mostram minha atuação em arquitetura, desenvo
     <td width="50%" valign="top">
       <h3><a href="https://worktime.devforyou.com.br/">WorkTime</a></h3>
       <p>Plataforma de gestão e conciliação de apontamentos de horas, com jornadas, equipes, férias, fechamentos, auditoria e relatórios.</p>
-      <p><strong>Integrações previstas ou implementadas:</strong> Ahgora, Businessmap/Kanbanize e Jira.</p>
+      <p><strong>Integrações no escopo:</strong> Ahgora, Businessmap/Kanbanize e Jira.</p>
       <p><code>C#</code> <code>.NET 10</code> <code>ASP.NET Core</code> <code>EF Core</code> <code>SQL Server</code></p>
       <p><a href="https://worktime.devforyou.com.br/">Acessar WorkTime</a></p>
     </td>
@@ -54,11 +52,11 @@ Produtos digitais e projetos que mostram minha atuação em arquitetura, desenvo
   </tr>
 </table>
 
-## AI Engineering
+## Engenharia de IA
 
-Este é meu foco atual de evolução técnica. Tenho dedicado meus estudos à engenharia de IA e a aplicações práticas de inteligência artificial no desenvolvimento de software e em produtos digitais.
+AI Engineering é meu foco atual de evolução técnica. Tenho dedicado meus estudos a aplicações práticas de inteligência artificial no desenvolvimento de software e em produtos digitais.
 
-## Experiência técnica
+## Competências técnicas
 
 - **Desenvolvimento:** C#, .NET, ASP.NET Core, APIs REST, Node.js, JavaScript e TypeScript
 - **Arquitetura:** DDD, Clean Architecture, arquitetura modular, microsserviços e sistemas orientados a eventos
