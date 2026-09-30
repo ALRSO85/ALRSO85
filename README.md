@@ -26,44 +26,43 @@ Atuo em aplicações corporativas e também desenvolvo produtos pela **[DevsForY
 
 Produtos digitais e projetos que mostram minha atuação em arquitetura, desenvolvimento e integração de sistemas.
 
-<table>
-  <tr>
-    <td width="100%" valign="top">
-      <h3><a href="https://sportsforyou.com.br/">SportsForYou</a></h3>
-      <p>Plataforma para o ecossistema esportivo, conectando atletas, organizadores, comunidades e parceiros por meio de eventos, perfis e integrações.</p>
-      <p><strong>Engenharia:</strong> arquitetura modular, qualidade automatizada, governança de dados, acessibilidade e SEO.</p>
-      <p><code>C#</code> <code>ASP.NET Core</code> <code>.NET 10</code> <code>MySQL</code> <code>Docker</code></p>
-      <p><a href="https://sportsforyou.com.br/">Acessar produto</a> · <a href="https://github.com/ALRSO85/sportsforyou-showcase">Ver showcase técnico</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="100%" valign="top">
-      <h3><a href="https://worktime.devforyou.com.br/account/login">WorkTime</a></h3>
-      <p>Plataforma de gestão e conciliação de apontamentos de horas, com jornadas, equipes, férias, fechamentos, auditoria e relatórios.</p>
-      <p><strong>Integrações no escopo:</strong> Ahgora, Businessmap/Kanbanize e Jira.</p>
-      <p><code>C#</code> <code>.NET 10</code> <code>ASP.NET Core</code> <code>EF Core</code> <code>SQL Server</code></p>
-      <p><a href="https://worktime.devforyou.com.br/account/login">Entrar no WorkTime</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="100%" valign="top">
-      <h3><a href="https://doguinhos220v.com.br/">Doguinhos 220v</a></h3>
-      <p>Portal pet com artigos, eventos, vídeos e recomendações de produtos. Desenvolvido por mim pela DevsForYou.</p>
-      <p><strong>Engenharia:</strong> aplicação modular em PHP, painel administrativo, persistência JSON, SEO técnico e acessibilidade.</p>
-      <p><code>PHP 8.5</code> <code>Bootstrap 5</code> <code>JavaScript</code> <code>JSON</code></p>
-      <p><a href="https://doguinhos220v.com.br/">Acessar Doguinhos 220v</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="100%" valign="top">
-      <h3><a href="https://releasehub.devforyou.com.br/">ReleaseHub</a></h3>
-      <p>Plataforma self-hosted para governança de mudanças e orquestração de releases em ambientes privados ou híbridos, conectando aprovações, execução, validação e auditoria.</p>
-      <p><strong>Engenharia:</strong> rastreabilidade de artefatos e políticas de integridade para releases.</p>
-      <p><code>.NET 10</code> <code>ASP.NET Core</code> <code>Docker</code> <code>SQL Server</code></p>
-      <p><a href="https://releasehub.devforyou.com.br/">Entrar no ReleaseHub</a></p>
-    </td>
-  </tr>
-</table>
+### [SportsForYou](https://sportsforyou.com.br/)
+
+Plataforma para o ecossistema esportivo, conectando atletas, organizadores, comunidades e parceiros por meio de eventos, perfis e integrações.
+
+- **Engenharia:** arquitetura modular, qualidade automatizada, governança de dados, acessibilidade e SEO.
+- **Stack:** `C#` `ASP.NET Core` `.NET 10` `MySQL` `Docker`
+- [Acessar produto](https://sportsforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/sportsforyou-showcase)
+
+---
+
+### [WorkTime](https://worktime.devforyou.com.br/account/login)
+
+Plataforma de gestão e conciliação de apontamentos de horas, com jornadas, equipes, férias, fechamentos, auditoria e relatórios.
+
+- **Integrações no escopo:** Ahgora, Businessmap/Kanbanize e Jira.
+- **Stack:** `C#` `.NET 10` `ASP.NET Core` `EF Core` `SQL Server`
+- [Entrar no WorkTime](https://worktime.devforyou.com.br/account/login)
+
+---
+
+### [Doguinhos 220v](https://doguinhos220v.com.br/)
+
+Portal pet com artigos, eventos, vídeos e recomendações de produtos. Desenvolvido por mim pela DevsForYou.
+
+- **Engenharia:** aplicação modular em PHP, painel administrativo, persistência JSON, SEO técnico e acessibilidade.
+- **Stack:** `PHP 8.5` `Bootstrap 5` `JavaScript` `JSON`
+- [Acessar Doguinhos 220v](https://doguinhos220v.com.br/)
+
+---
+
+### [ReleaseHub](https://releasehub.devforyou.com.br/)
+
+Plataforma self-hosted para governança de mudanças e orquestração de releases em ambientes privados ou híbridos, conectando aprovações, execução, validação e auditoria.
+
+- **Engenharia:** rastreabilidade de artefatos e políticas de integridade para releases.
+- **Stack:** `.NET 10` `ASP.NET Core` `Docker` `SQL Server`
+- [Entrar no ReleaseHub](https://releasehub.devforyou.com.br/)
 
 ### Projeto open source
 
@@ -77,48 +76,14 @@ Tenho aprofundado meus estudos em Engenharia de IA e experimentado LLMs em fluxo
 
 ## Competências técnicas
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Backend e APIs</h3>
-      <code>C#</code> <code>.NET</code> <code>ASP.NET Core</code> <code>Node.js</code> <code>APIs REST</code>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Design de soluções e arquitetura</h3>
-      <code>Design de projetos</code> <code>DDD</code> <code>Clean Architecture</code> <code>Sistemas modulares</code> <code>Microsserviços</code> <code>Eventos</code>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <h3>Dados</h3>
-      <code>SQL Server</code> <code>MySQL</code> <code>PostgreSQL</code> <code>Redis</code> <code>Entity Framework Core</code>
-    </td>
-    <td valign="top">
-      <h3>Web</h3>
-      <code>HTML</code> <code>CSS</code> <code>Bootstrap</code> <code>JavaScript</code> <code>TypeScript</code> <code>Interfaces responsivas</code>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <h3>Cloud e entrega</h3>
-      <code>Docker</code> <code>Linux</code> <code>Azure</code> <code>AWS</code> <code>Cloudflare</code> <code>CI/CD</code>
-    </td>
-    <td valign="top">
-      <h3>Segurança</h3>
-      <code>CSRF</code> <code>Cookies seguros</code> <code>Rate limiting</code> <code>SHA-256</code> <code>SBOM</code> <code>Dados biométricos</code>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <h3>Engenharia de software</h3>
-      <code>Modernização</code> <code>Integrações</code> <code>Desempenho</code> <code>Resiliência</code> <code>Observabilidade</code>
-    </td>
-    <td valign="top">
-      <h3>Engenharia de IA</h3>
-      <code>LLMs</code> <code>Revisão de código</code> <code>Documentação</code> <code>Análise de logs</code> <code>Planejamento arquitetural</code>
-    </td>
-  </tr>
-</table>
+- **Backend e APIs:** `C#` `.NET` `ASP.NET Core` `Node.js` `APIs REST`
+- **Design de soluções e arquitetura:** `Design de projetos` `DDD` `Clean Architecture` `Sistemas modulares` `Microsserviços` `Eventos`
+- **Dados:** `SQL Server` `MySQL` `PostgreSQL` `Redis` `Entity Framework Core`
+- **Web:** `HTML` `CSS` `Bootstrap` `JavaScript` `TypeScript` `Interfaces responsivas`
+- **Cloud e entrega:** `Docker` `Linux` `Azure` `AWS` `Cloudflare` `CI/CD`
+- **Segurança:** `CSRF` `Cookies seguros` `Rate limiting` `SHA-256` `SBOM` `Dados biométricos`
+- **Engenharia de software:** `Modernização` `Integrações` `Desempenho` `Resiliência` `Observabilidade`
+- **Engenharia de IA:** `LLMs` `Revisão de código` `Documentação` `Análise de logs` `Planejamento arquitetural`
 
 ## Segurança aplicada
 
