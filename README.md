@@ -8,7 +8,7 @@
 
 **.NET · Distributed Systems · Cloud Architecture · AI Engineering · Digital Products**
 
-Desenho e desenvolvo sistemas e produtos digitais, da arquitetura à operação. Tenho foco no ecossistema .NET, modernização de aplicações e soluções preparadas para evoluir.
+Desenho sistemas e produtos digitais da arquitetura à operação, com foco em .NET, modernização e soluções que evoluem com o negócio.
 
 [LinkedIn](https://www.linkedin.com/in/alexandre-roberto-souza-software-engineer/) · [DevsForYou](https://devsforyou.com.br/) · [SportsForYou](https://sportsforyou.com.br/)
 
@@ -20,7 +20,7 @@ Desenho e desenvolvo sistemas e produtos digitais, da arquitetura à operação.
 
 ## Sobre
 
-Atuo em aplicações corporativas e também desenvolvo produtos pela **[DevsForYou](https://devsforyou.com.br/)**. Meu trabalho passa por arquitetura, implementação, integrações e infraestrutura.
+Atuo em aplicações corporativas e desenvolvo produtos pela **[DevsForYou](https://devsforyou.com.br/)**, da arquitetura à infraestrutura.
 
 ## Projetos em destaque
 
@@ -28,7 +28,7 @@ Produtos digitais e projetos que mostram minha atuação em arquitetura, desenvo
 
 ### [SportsForYou](https://sportsforyou.com.br/)
 
-Plataforma para o ecossistema esportivo, conectando atletas, organizadores, comunidades e parceiros por meio de eventos, perfis e integrações.
+Plataforma esportiva para atletas, organizadores, comunidades e parceiros, com eventos, perfis e integrações.
 
 - **Engenharia:** arquitetura modular, qualidade automatizada, governança de dados, acessibilidade e SEO.
 - **Stack:** `C#` `ASP.NET Core` `.NET 10` `MySQL` `Docker`
@@ -38,7 +38,7 @@ Plataforma para o ecossistema esportivo, conectando atletas, organizadores, comu
 
 ### [WorkTime](https://worktime.devforyou.com.br/account/login)
 
-Plataforma de gestão e conciliação de apontamentos de horas, com jornadas, equipes, férias, fechamentos, auditoria e relatórios.
+Gestão e conciliação de horas, jornadas, equipes, férias, fechamentos, auditoria e relatórios.
 
 - **Integrações no escopo:** Ahgora, Businessmap/Kanbanize e Jira.
 - **Stack:** `C#` `.NET 10` `ASP.NET Core` `EF Core` `SQL Server`
@@ -48,7 +48,7 @@ Plataforma de gestão e conciliação de apontamentos de horas, com jornadas, eq
 
 ### [Doguinhos 220v](https://doguinhos220v.com.br/)
 
-Portal pet com artigos, eventos, vídeos e recomendações de produtos. Desenvolvido por mim pela DevsForYou.
+Portal pet com artigos, eventos, vídeos e recomendações de produtos, desenvolvido pela DevsForYou.
 
 - **Engenharia:** aplicação modular em PHP, painel administrativo, persistência JSON, SEO técnico e acessibilidade.
 - **Stack:** `PHP 8.5` `Bootstrap 5` `JavaScript` `JSON`
@@ -58,7 +58,7 @@ Portal pet com artigos, eventos, vídeos e recomendações de produtos. Desenvol
 
 ### [ReleaseHub](https://releasehub.devforyou.com.br/)
 
-Plataforma self-hosted para governança de mudanças e orquestração de releases em ambientes privados ou híbridos, conectando aprovações, execução, validação e auditoria.
+Plataforma self-hosted para governança e execução de releases, com aprovações, validações e auditoria.
 
 - **Engenharia:** rastreabilidade de artefatos e políticas de integridade para releases.
 - **Stack:** `.NET 10` `ASP.NET Core` `Docker` `SQL Server`
@@ -66,13 +66,13 @@ Plataforma self-hosted para governança de mudanças e orquestração de release
 
 ### Projeto open source
 
-**[FingerBridge](https://github.com/ALRSO85/fingerbridge)** — Camada de integração biométrica para aplicações Windows em .NET Framework 4.8, com interface comum e providers independentes para leitores de diferentes fabricantes.
+**[FingerBridge](https://github.com/ALRSO85/fingerbridge)** — Biblioteca para integrar leitores biométricos a aplicações Windows em .NET Framework 4.8, com providers independentes.
 
 `C#` `.NET Framework` `WinForms` `Biometria` `MIT` · [Explorar repositório](https://github.com/ALRSO85/fingerbridge)
 
 ## Engenharia de IA
 
-Tenho aprofundado meus estudos em Engenharia de IA e experimentado LLMs em fluxos de desenvolvimento. No [showcase técnico do SportsForYou](https://github.com/ALRSO85/sportsforyou-showcase#ai-assisted-engineering), documento aplicações de apoio à revisão de código, documentação, análise de logs e planejamento de arquitetura.
+Estudo Engenharia de IA e experimento LLMs em fluxos de desenvolvimento. No [showcase do SportsForYou](https://github.com/ALRSO85/sportsforyou-showcase#ai-assisted-engineering), documento usos em revisão de código, documentação, análise de logs e arquitetura.
 
 ## Competências técnicas
 
