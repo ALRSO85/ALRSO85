@@ -12,6 +12,8 @@ Desenho e desenvolvo sistemas e produtos digitais, da arquitetura à operação.
 
 [LinkedIn](https://www.linkedin.com/in/alexandre-roberto-souza-software-engineer/) · [DevsForYou](https://devsforyou.com.br/) · [SportsForYou](https://sportsforyou.com.br/)
 
+**Navegação:** [Projetos](#projetos-em-destaque) · [AI Engineering](#ai-engineering) · [Experiência](#experi%C3%AAncia-t%C3%A9cnica) · [GitHub](#github) · [Contato](#contato)
+
 </div>
 
 ---
