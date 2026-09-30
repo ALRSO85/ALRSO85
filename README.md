@@ -1,6 +1,9 @@
 <div align="center">
 
-![Arte abstrata com conexões em tons de azul e verde, representando arquitetura e sistemas digitais](./assets/profile-visual.svg)
+<picture>
+  <source media="(max-width: 480px)" srcset="./assets/profile-visual-mobile.svg" />
+  <img src="./assets/profile-visual.svg" alt="Arte abstrata com conexões em tons de azul e verde, representando arquitetura e sistemas digitais" />
+</picture>
 
 # Alexandre Souza
 
@@ -103,6 +106,8 @@ Parte da minha atuação acontece em repositórios privados e ambientes corporat
 <div align="center">
 
 <picture>
+  <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./profile-summary-card-output/mobile/github_dark/0-profile-details.svg" />
+  <source media="(max-width: 480px)" srcset="./profile-summary-card-output/mobile/github/0-profile-details.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/0-profile-details.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./profile-summary-card-output/github/0-profile-details.svg" />
   <img src="./profile-summary-card-output/github/0-profile-details.svg" alt="Resumo de atividade no GitHub" />

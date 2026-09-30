@@ -37,3 +37,36 @@ jobs:
           ANIMATION: ""
           DURATION: ""
           NAME: "Alexandre Souza"
+
+      - name: Generate narrow-screen activity cards
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          output = Path("profile-summary-card-output")
+          for theme in ("github", "github_dark"):
+              source = output / theme / "0-profile-details.svg"
+              destination = output / "mobile" / theme / "0-profile-details.svg"
+              svg = source.read_text(encoding="utf-8")
+              match = re.search(r"<svg\b[^>]*>", svg)
+              if match is None:
+                  raise SystemExit(f"Could not find SVG root element in {source}")
+
+              root = match.group(0)
+              root = re.sub(r'\bwidth="\d+"', 'width="320"', root, count=1)
+              root = re.sub(r'\bheight="\d+"', 'height="91"', root, count=1)
+              svg = svg[:match.start()] + root + svg[match.end():]
+              destination.parent.mkdir(parents=True, exist_ok=True)
+              destination.write_text(svg, encoding="utf-8")
+          PY
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-summary-card-output/mobile
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Generate narrow-screen activity cards"
+          git push origin HEAD:main
