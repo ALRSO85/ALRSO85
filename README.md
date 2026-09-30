@@ -45,12 +45,18 @@ Produtos digitais e projetos que mostram minha atuação em arquitetura, desenvo
   </tr>
   <tr>
     <td colspan="2" valign="top">
-      <h3><a href="https://github.com/ALRSO85/fingerbridge">FingerBridge</a></h3>
-      <p>Framework open source que unifica o acesso a SDKs de biometria digital para cadastro e validação de digitais em dispositivos de diferentes fabricantes.</p>
-      <p><code>C#</code> <code>.NET Framework</code> <code>WinForms</code> <code>Biometria</code> · <a href="https://github.com/ALRSO85/fingerbridge">Explorar repositório</a></p>
+      <h3><a href="https://doguinhos220v.com.br/">Doguinhos 220v</a></h3>
+      <p>Portal de conteúdo pet com artigos sobre cuidados, agenda de eventos, vídeos e seleção de produtos. Desenvolvido por mim pela DevsForYou.</p>
+      <p><a href="https://doguinhos220v.com.br/">Acessar Doguinhos 220v</a></p>
     </td>
   </tr>
 </table>
+
+### Projeto open source
+
+**[FingerBridge](https://github.com/ALRSO85/fingerbridge)** — Framework que unifica o acesso a SDKs de biometria digital para cadastro e validação de digitais em dispositivos de diferentes fabricantes.
+
+`C#` `.NET Framework` `WinForms` `Biometria` · [Explorar repositório](https://github.com/ALRSO85/fingerbridge)
 
 ## Engenharia de IA
 
