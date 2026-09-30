@@ -61,7 +61,7 @@ Produtos digitais e projetos que mostram minha atuação em arquitetura, desenvo
   </tr>
 </table>
 
-### Projeto open source
+### Projeto público
 
 **[FingerBridge](https://github.com/ALRSO85/fingerbridge)** — Camada de integração biométrica para aplicações Windows em .NET Framework 4.8, com interface comum e providers independentes para leitores de diferentes fabricantes.
 
