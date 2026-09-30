@@ -40,7 +40,7 @@ Plataforma esportiva para atletas, organizadores, comunidades e parceiros, com e
 
 Gestão e conciliação de horas, jornadas, equipes, férias, fechamentos, auditoria e relatórios.
 
-- **Integrações no escopo:** Ahgora, Businessmap/Kanbanize e Jira.
+- **Integrações:** Businessmap/Kanbanize, com sincronização de apontamentos, e Ahgora, com importação de horas.
 - **Stack:** `C#` `.NET 10` `ASP.NET Core` `EF Core` `SQL Server`
 - [Entrar no WorkTime](https://worktime.devforyou.com.br/account/login)
 
