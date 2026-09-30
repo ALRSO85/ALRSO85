@@ -40,7 +40,7 @@ Produtos digitais e projetos que mostram minha atuação em arquitetura, desenvo
       <p>Plataforma de gestão e conciliação de apontamentos de horas, com jornadas, equipes, férias, fechamentos, auditoria e relatórios.</p>
       <p><strong>Integrações no escopo:</strong> Ahgora, Businessmap/Kanbanize e Jira.</p>
       <p><code>C#</code> <code>.NET 10</code> <code>ASP.NET Core</code> <code>EF Core</code> <code>SQL Server</code></p>
-      <p><a href="https://worktime.devforyou.com.br/">Acessar WorkTime</a></p>
+      <p><a href="https://worktime.devforyou.com.br/">Entrar no WorkTime</a></p>
     </td>
   </tr>
   <tr>
@@ -55,7 +55,7 @@ Produtos digitais e projetos que mostram minha atuação em arquitetura, desenvo
       <h3><a href="https://releasehub.devforyou.com.br/">ReleaseHub</a></h3>
       <p>Plataforma self-hosted para governança de mudanças e orquestração de releases em ambientes privados ou híbridos, conectando aprovações, execução, validação e auditoria.</p>
       <p><code>.NET 10</code> <code>ASP.NET Core</code> <code>Docker</code> <code>SQL Server</code></p>
-      <p><a href="https://releasehub.devforyou.com.br/">Acessar plataforma</a></p>
+      <p><a href="https://releasehub.devforyou.com.br/">Entrar no ReleaseHub</a></p>
     </td>
   </tr>
 </table>
