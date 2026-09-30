@@ -8,7 +8,7 @@ O cartão exibido no README é gerado pela GitHub Action definida em `.github/wo
 - Também pode ser iniciada manualmente em **Actions > GitHub Profile Summary Cards > Run workflow**.
 - Uma execução diária está agendada para 03:20 UTC (00:20 no horário de Brasília).
 - Os cartões são gerados em `profile-summary-card-output/` e enviados para a branch `main`.
-- Todos os temas são gerados; o README escolhe entre os temas claro e escuro conforme a preferência do visitante.
+- São gerados somente os temas `github` e `github_dark`, usados pelo README para acompanhar a preferência visual do visitante.
 
 ## Token
 
