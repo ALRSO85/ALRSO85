@@ -28,14 +28,16 @@ Produtos digitais e projetos que mostram minha atuação em arquitetura, desenvo
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="100%" valign="top">
       <h3><a href="https://sportsforyou.com.br/">SportsForYou</a></h3>
       <p>Plataforma para o ecossistema esportivo, conectando atletas, organizadores, comunidades e parceiros por meio de eventos, perfis e integrações.</p>
       <p><strong>Engenharia:</strong> arquitetura modular, qualidade automatizada, governança de dados, acessibilidade e SEO.</p>
       <p><code>C#</code> <code>ASP.NET Core</code> <code>.NET 10</code> <code>MySQL</code> <code>Docker</code></p>
       <p><a href="https://sportsforyou.com.br/">Acessar produto</a> · <a href="https://github.com/ALRSO85/sportsforyou-showcase">Ver showcase técnico</a></p>
     </td>
-    <td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td width="100%" valign="top">
       <h3><a href="https://worktime.devforyou.com.br/account/login">WorkTime</a></h3>
       <p>Plataforma de gestão e conciliação de apontamentos de horas, com jornadas, equipes, férias, fechamentos, auditoria e relatórios.</p>
       <p><strong>Integrações no escopo:</strong> Ahgora, Businessmap/Kanbanize e Jira.</p>
@@ -44,14 +46,16 @@ Produtos digitais e projetos que mostram minha atuação em arquitetura, desenvo
     </td>
   </tr>
   <tr>
-    <td valign="top">
+    <td width="100%" valign="top">
       <h3><a href="https://doguinhos220v.com.br/">Doguinhos 220v</a></h3>
       <p>Portal pet com artigos, eventos, vídeos e recomendações de produtos. Desenvolvido por mim pela DevsForYou.</p>
       <p><strong>Engenharia:</strong> aplicação modular em PHP, painel administrativo, persistência JSON, SEO técnico e acessibilidade.</p>
       <p><code>PHP 8.5</code> <code>Bootstrap 5</code> <code>JavaScript</code> <code>JSON</code></p>
       <p><a href="https://doguinhos220v.com.br/">Acessar Doguinhos 220v</a></p>
     </td>
-    <td valign="top">
+  </tr>
+  <tr>
+    <td width="100%" valign="top">
       <h3><a href="https://releasehub.devforyou.com.br/">ReleaseHub</a></h3>
       <p>Plataforma self-hosted para governança de mudanças e orquestração de releases em ambientes privados ou híbridos, conectando aprovações, execução, validação e auditoria.</p>
       <p><strong>Engenharia:</strong> rastreabilidade de artefatos e políticas de integridade para releases.</p>
