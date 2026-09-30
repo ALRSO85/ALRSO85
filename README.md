@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./assets/profile-visual.svg" alt="Arte abstrata com conexões em tons de azul e verde, representando arquitetura e sistemas digitais" width="100%" />
+
 # Alexandre Souza
 
 ### Software Architect · Senior Software Engineer · AI Engineer
@@ -63,7 +65,11 @@ Parte da minha atuação acontece em repositórios privados e ambientes corporat
 
 <div align="center">
 
-[![Resumo de atividade no GitHub](./profile-summary-card-output/github_dark/0-profile-details.svg)](https://github.com/ALRSO85)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/0-profile-details.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile-summary-card-output/github/0-profile-details.svg" />
+  <img src="./profile-summary-card-output/github/0-profile-details.svg" alt="Resumo de atividade no GitHub" />
+</picture>
 
 </div>
 

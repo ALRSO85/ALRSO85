@@ -32,7 +32,8 @@ jobs:
           BRANCH_NAME: main
           UTC_OFFSET: -3
           AUTO_PUSH: true
-          THEME: github_dark
+          # Generate all themes so the README can adapt to GitHub's light/dark setting.
+          THEME: ""
           ANIMATION: ""
           DURATION: ""
           NAME: "Alexandre Souza"
