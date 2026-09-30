@@ -72,7 +72,7 @@ Plataforma self-hosted para governança e execução de releases, com aprovaçõ
 
 ## Engenharia de IA
 
-Tenho aprofundado meus estudos em engenharia de IA e explorado o uso de LLMs no desenvolvimento de software. No [showcase do SportsForYou](https://github.com/ALRSO85/sportsforyou-showcase#ai-assisted-engineering), documento aplicações em revisão de código, documentação, análise de logs e arquitetura.
+Tenho aprofundado meus estudos em engenharia de IA e explorado o uso de LLMs no desenvolvimento de software. No [showcase do SportsForYou](https://github.com/ALRSO85/sportsforyou-showcase#ai-assisted-engineering), documento aplicações em revisão de código, documentação, análise de logs e arquitetura. Também escrevi sobre [arquitetura AI-First no ecossistema .NET](https://pt.linkedin.com/pulse/ai-first-software-architecture-o-que-muda-quando-artificial-souza-mjcgf), abordando orquestração, busca semântica e guardrails.
 
 ## Competências técnicas
 
