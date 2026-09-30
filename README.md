@@ -72,7 +72,7 @@ Plataforma self-hosted para governança e execução de releases, com aprovaçõ
 
 ## Engenharia de IA
 
-Estudo Engenharia de IA e experimento LLMs em fluxos de desenvolvimento. No [showcase do SportsForYou](https://github.com/ALRSO85/sportsforyou-showcase#ai-assisted-engineering), documento usos em revisão de código, documentação, análise de logs e arquitetura.
+Tenho aprofundado meus estudos em engenharia de IA e explorado o uso de LLMs no desenvolvimento de software. No [showcase do SportsForYou](https://github.com/ALRSO85/sportsforyou-showcase#ai-assisted-engineering), documento aplicações em revisão de código, documentação, análise de logs e arquitetura.
 
 ## Competências técnicas
 
