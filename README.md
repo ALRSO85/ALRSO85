@@ -85,6 +85,7 @@ Tenho aprofundado meus estudos em Engenharia de IA. No desenvolvimento de softwa
 - **Doguinhos 220v:** senhas com bcrypt, proteção CSRF, sessões administrativas com cookies HttpOnly/SameSite, rate limiting e validação de uploads.
 - **WorkTime:** ações protegidas contra CSRF, cookies de autenticação HttpOnly e políticas configuráveis de expiração, SameSite e Secure, além de rate limiting.
 - **ReleaseHub:** validação de hashes SHA-256 e políticas configuráveis para exigir assinatura, proveniência e SBOM de artefatos.
+- **FingerBridge:** documentação de proteção de dados biométricos, incluindo não armazenar imagens ou registrar templates em logs e criptografar templates persistidos.
 
 ## Temas de interesse
 
