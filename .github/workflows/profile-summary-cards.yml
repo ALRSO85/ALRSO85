@@ -23,21 +23,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4, pinned to an immutable commit
 
-      - name: Generate light theme cards
-        uses: vn7n24fzkq/github-profile-summary-cards@09ba4dde3f9b05828cb99553561db3f4ff07703f # release branch, pinned to an immutable commit
-        env:
-          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || github.token }}
-        with:
-          USERNAME: ALRSO85
-          BRANCH_NAME: main
-          UTC_OFFSET: -3
-          AUTO_PUSH: false
-          THEME: github
-          ANIMATION: ""
-          DURATION: ""
-          NAME: "Alexandre Souza"
-
-      - name: Generate dark theme cards
+      - name: Generate profile cards
         uses: vn7n24fzkq/github-profile-summary-cards@09ba4dde3f9b05828cb99553561db3f4ff07703f # release branch, pinned to an immutable commit
         env:
           GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || github.token }}
@@ -46,7 +32,8 @@ jobs:
           BRANCH_NAME: main
           UTC_OFFSET: -3
           AUTO_PUSH: true
-          THEME: github_dark
+          # Generate all themes so the README can adapt to GitHub's light/dark setting.
+          THEME: ""
           ANIMATION: ""
           DURATION: ""
           NAME: "Alexandre Souza"
