@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-visual.svg" alt="Arte abstrata com conexões em tons de azul e verde, representando arquitetura e sistemas digitais" width="100%" />
+![Arte abstrata com conexões em tons de azul e verde, representando arquitetura e sistemas digitais](./assets/profile-visual.svg)
 
 # Alexandre Souza
 
