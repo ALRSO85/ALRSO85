@@ -28,6 +28,8 @@ Também desenvolvo produtos pela **[DevsForYou](https://devsforyou.com.br/)**, a
 
 Plataforma digital para o ecossistema esportivo, conectando atletas, organizadores de eventos, parceiros e outros participantes. Inclui gestão de eventos, perfis personalizados, integrações externas e autenticação e autorização.
 
+**Showcase técnico:** [arquitetura, módulos e práticas de engenharia](https://github.com/ALRSO85/sportsforyou-showcase).
+
 `C#` `ASP.NET Core` `.NET 10` `MySQL` `Bootstrap` `Docker` `Linux`
 
 ### [WorkTime](https://worktime.devforyou.com.br/)
@@ -36,7 +38,7 @@ Plataforma para conciliar e gerir apontamentos de horas, reunindo dados de jorna
 
 `C#` `.NET 10` `ASP.NET Core` `EF Core` `SQL Server` `Bootstrap`
 
-### FingerBridge
+### [FingerBridge](https://github.com/ALRSO85/fingerbridge)
 
 Framework que abstrai SDKs de biometria digital e oferece uma camada comum para cadastro e validação de digitais em dispositivos de diferentes fabricantes.
 
