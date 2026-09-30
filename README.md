@@ -10,8 +10,6 @@
 
 Desenho e desenvolvo sistemas e produtos digitais, da arquitetura à operação. Tenho foco no ecossistema .NET, modernização de aplicações e soluções preparadas para evoluir.
 
-Também venho aprofundando meus estudos em engenharia de IA e aplicações práticas de inteligência artificial no desenvolvimento de software.
-
 [LinkedIn](https://www.linkedin.com/in/alexandre-roberto-souza-software-engineer/) · [DevsForYou](https://devsforyou.com.br/) · [SportsForYou](https://sportsforyou.com.br/)
 
 </div>
@@ -53,6 +51,10 @@ Produtos digitais e projetos que mostram minha atuação em arquitetura, desenvo
     </td>
   </tr>
 </table>
+
+## AI Engineering
+
+Este é meu foco atual de evolução técnica. Tenho dedicado meus estudos à engenharia de IA e a aplicações práticas de inteligência artificial no desenvolvimento de software e em produtos digitais.
 
 ## Experiência técnica
 
