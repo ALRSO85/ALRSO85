@@ -51,8 +51,8 @@ Gestão e conciliação de horas, jornadas, equipes, férias, fechamentos, audit
 Portal pet com artigos, eventos, vídeos e recomendações de produtos, desenvolvido pela DevsForYou.
 
 - **Engenharia:** aplicação modular em PHP, painel administrativo, persistência JSON, SEO técnico e acessibilidade.
-- **Stack:** `PHP 8.5` `Bootstrap 5` `JavaScript` `JSON`
-- [Acessar Doguinhos 220v](https://doguinhos220v.com.br/)
+- **Stack:** `PHP 8.5` `Bootstrap 5.3` `JavaScript` `JSON`
+- [Acessar Doguinhos 220v](https://doguinhos220v.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/doguinhos-showcase)
 
 ---
 
