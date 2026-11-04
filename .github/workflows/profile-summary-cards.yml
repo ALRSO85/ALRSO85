@@ -14,6 +14,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: profile-summary-cards-main
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -31,7 +35,8 @@ jobs:
           USERNAME: ALRSO85
           BRANCH_NAME: main
           UTC_OFFSET: -3
-          AUTO_PUSH: true
+          # Commit desktop and narrow-screen assets together in the final step.
+          AUTO_PUSH: false
           # Generate all themes so the README can adapt to GitHub's light/dark setting.
           THEME: ""
           ANIMATION: ""
@@ -64,9 +69,26 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile-summary-card-output/mobile
+          git add profile-summary-card-output
           if git diff --cached --quiet; then
             exit 0
           fi
-          git commit -m "Generate narrow-screen activity cards"
-          git push origin HEAD:main
+          git commit -m "Generate profile summary cards"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              if [ "$attempt" -eq 3 ]; then
+                exit 1
+              fi
+              sleep 2
+              continue
+            fi
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              exit 1
+            fi
+            sleep 2
+          done
