@@ -15,7 +15,7 @@ Arquiteto de Software e Engenheiro de Software Sênior, sou responsável pelo de
 
 [LinkedIn](https://www.linkedin.com/in/alexandre-roberto-souza-software-engineer/) · [DevsForYou](https://devsforyou.com.br/) · [SportsForYou](https://sportsforyou.com.br/)
 
-**Cases técnicos:** [WorkTime — integrações e fluxos corporativos](https://github.com/ALRSO85/worktime-showcase) · [SportsForYou — arquitetura modular](https://github.com/ALRSO85/sportsforyou-showcase) · [ReleaseHub — governança de releases](https://github.com/ALRSO85/releasehub-showcase)
+**Cases técnicos:** [WorkTime — integração idempotente](https://github.com/ALRSO85/worktime-showcase#integra%C3%A7%C3%B5es-resilientes) · [SportsForYou — worker independente](https://github.com/ALRSO85/sportsforyou-showcase#architecture-decision--independent-background-processing) · [ReleaseHub — rollback com reconciliação](https://github.com/ALRSO85/releasehub-showcase#recupera%C3%A7%C3%A3o-de-rollback)
 
 **Navegação:** [Cases](#projetos-em-destaque) · [Outros produtos](#outros-produtos) · [Open source](#open-source) · [Engenharia de IA](#engenharia-de-ia) · [Competências](#compet%C3%AAncias-t%C3%A9cnicas) · [Segurança](#seguran%C3%A7a-aplicada) · [GitHub](#github) · [Contato](#contato)
 
