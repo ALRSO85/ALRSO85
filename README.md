@@ -46,7 +46,7 @@ Aplicação para gestão e conciliação de horas, jornadas, equipes, férias, f
 Plataforma esportiva para atletas, organizadores, comunidades e parceiros, com eventos, perfis e integrações.
 
 - **Engenharia:** arquitetura modular, qualidade automatizada, governança de dados, acessibilidade e SEO.
-- **Stack:** `C#` `ASP.NET Core` `.NET 10` `MySQL` `Docker`
+- **Stack:** `C#` `.NET 10` `ASP.NET Core` `SQL Server` `Docker`
 - [Acessar produto](https://sportsforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/sportsforyou-showcase) · [Artigo sobre arquitetura modular](https://pt.linkedin.com/pulse/arquitetura-modular-aplicada-uma-plataforma-digital-para-souza-g8btf)
 
 ---
