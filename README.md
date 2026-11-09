@@ -55,7 +55,7 @@ Plataforma self-hosted para governança e execução de releases, com aprovaçõ
 
 - **Engenharia:** rastreabilidade de artefatos e políticas de integridade para releases.
 - **Stack:** `.NET 10` `ASP.NET Core` `Docker` `SQL Server`
-- **Infra:** `Ubuntu Server` · `Docker`
+- **Infra:** `Ubuntu Server` · `Docker` · `Cloudflare Tunnel`
 - [Acessar ReleaseHub](https://releasehub.devforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/releasehub-showcase)
 
 ## Outros produtos
