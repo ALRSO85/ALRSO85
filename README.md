@@ -100,7 +100,7 @@ Sistemas distribuídos, produtos SaaS, infraestrutura self-hosted e IA aplicada 
 
 ## GitHub
 
-Parte da minha atuação acontece em repositórios privados e ambientes corporativos. Os cards abaixo são gerados por uma GitHub Action e podem não representar toda essa atividade.
+Parte da minha atuação acontece em repositórios privados e ambientes corporativos. Os cartões abaixo são gerados pela [GitHub Action](.github/workflows/profile-summary-cards.yml) e podem não refletir toda essa atividade.
 
 <div align="center">
 
