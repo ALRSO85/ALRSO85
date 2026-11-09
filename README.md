@@ -11,21 +11,17 @@
 
 **.NET · Distributed Systems · Cloud Architecture · AI Engineering · Digital Products**
 
-Arquiteto de Software e Engenheiro de Software Sênior, com foco em .NET e modernização de sistemas. Desenho e evoluo produtos digitais da arquitetura à operação, conectando decisões técnicas a necessidades de negócio.
+Arquiteto de Software e Engenheiro de Software Sênior, atuo em aplicações corporativas e produtos da [DevsForYou](https://devsforyou.com.br/). Com foco em .NET e modernização, conecto decisões de arquitetura a necessidades de negócio e acompanho soluções da concepção à operação.
 
 [LinkedIn](https://www.linkedin.com/in/alexandre-roberto-souza-software-engineer/) · [DevsForYou](https://devsforyou.com.br/) · [SportsForYou](https://sportsforyou.com.br/)
 
 **Cases técnicos:** [WorkTime — integrações e fluxos corporativos](https://github.com/ALRSO85/worktime-showcase) · [SportsForYou — arquitetura modular](https://github.com/ALRSO85/sportsforyou-showcase) · [ReleaseHub — governança de releases](https://github.com/ALRSO85/releasehub-showcase)
 
-**Navegação:** [Sobre](#sobre) · [Cases](#projetos-em-destaque) · [Outros produtos](#outros-produtos) · [Engenharia de IA](#engenharia-de-ia) · [Competências](#compet%C3%AAncias-t%C3%A9cnicas) · [Segurança](#seguran%C3%A7a-aplicada) · [GitHub](#github) · [Contato](#contato)
+**Navegação:** [Cases](#projetos-em-destaque) · [Outros produtos](#outros-produtos) · [Engenharia de IA](#engenharia-de-ia) · [Competências](#compet%C3%AAncias-t%C3%A9cnicas) · [Segurança](#seguran%C3%A7a-aplicada) · [GitHub](#github) · [Contato](#contato)
 
 </div>
 
 ---
-
-## Sobre
-
-Atuo em aplicações corporativas e desenvolvo produtos pela **[DevsForYou](https://devsforyou.com.br/)**, da arquitetura à infraestrutura.
 
 ## Projetos em destaque
 
