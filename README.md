@@ -37,6 +37,7 @@ Aplicação para gestão e conciliação de horas, jornadas, equipes, férias, f
 
 - **Integrações:** Businessmap/Kanbanize, com sincronização de apontamentos, e Ahgora, com importação de horas.
 - **Stack:** `C#` `.NET 10` `ASP.NET Core` `EF Core` `SQL Server`
+- **Infra:** `Ubuntu Server` · `Docker`
 - [Acessar WorkTime](https://worktime.devforyou.com.br/account/login) · [Ver showcase técnico](https://github.com/ALRSO85/worktime-showcase)
 
 ---
@@ -47,6 +48,7 @@ Plataforma esportiva para atletas, organizadores, comunidades e parceiros, com e
 
 - **Engenharia:** arquitetura modular, qualidade automatizada, governança de dados, acessibilidade e SEO.
 - **Stack:** `C#` `.NET 10` `ASP.NET Core` `SQL Server` `Docker`
+- **Infra:** `Ubuntu Server` · `Docker`
 - [Acessar produto](https://sportsforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/sportsforyou-showcase) · [Artigo sobre arquitetura modular](https://pt.linkedin.com/pulse/arquitetura-modular-aplicada-uma-plataforma-digital-para-souza-g8btf)
 
 ---
@@ -57,12 +59,13 @@ Plataforma self-hosted para governança e execução de releases, com aprovaçõ
 
 - **Engenharia:** rastreabilidade de artefatos e políticas de integridade para releases.
 - **Stack:** `.NET 10` `ASP.NET Core` `Docker` `SQL Server`
+- **Infra:** `Ubuntu Server` · `Docker`
 - [Acessar ReleaseHub](https://releasehub.devforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/releasehub-showcase)
 
 ## Outros produtos
 
-- **[Chegou Inteiro](https://chegouinteiro.devforyou.com.br/):** plataforma para consulta regional de experiências de entrega. A instância pública é uma demonstração com dados sintéticos, sem cobertura real comprovada e com cadastros e relatos desativados. `ASP.NET Core MVC` · [Acessar demonstração](https://chegouinteiro.devforyou.com.br/)
-- **[Doguinhos 220v](https://doguinhos220v.com.br/):** portal pet com artigos, eventos, vídeos e recomendações de produtos. `PHP 8.5` · `Bootstrap 5.3` · [Ver showcase técnico](https://github.com/ALRSO85/doguinhos-showcase)
+- **[Chegou Inteiro](https://chegouinteiro.devforyou.com.br/):** plataforma para consulta regional de experiências de entrega. A instância pública é uma demonstração com dados sintéticos, sem cobertura real comprovada e com cadastros e relatos desativados. `ASP.NET Core MVC` · Hospedagem: `Ubuntu Server` · `Docker` · [Acessar demonstração](https://chegouinteiro.devforyou.com.br/)
+- **[Doguinhos 220v](https://doguinhos220v.com.br/):** portal pet com artigos, eventos, vídeos e recomendações de produtos. `PHP 8.5` · `Bootstrap 5.3` · Hospedagem: `Ubuntu Server` · `Apache` · [Ver showcase técnico](https://github.com/ALRSO85/doguinhos-showcase)
 ### Projeto open source
 
 **[FingerBridge](https://github.com/ALRSO85/fingerbridge)** — Biblioteca para integrar leitores biométricos a aplicações Windows em .NET Framework 4.8, com providers independentes.
