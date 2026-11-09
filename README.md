@@ -81,6 +81,7 @@ Tenho aprofundado meus estudos em engenharia de IA e explorado o uso de LLMs no 
 - **Cloud e entrega:** `Docker` `Linux` `Ubuntu Server` `Azure` `AWS` `Cloudflare DNS` `Cloudflare Tunnel` `CI/CD`
 - **Segurança:** `CSRF` `Cookies seguros` `Rate limiting` `SHA-256` `SBOM` `Dados biométricos`
 - **Engenharia de software:** `Modernização` `Integrações` `Desempenho` `Resiliência` `Observabilidade`
+- **Qualidade de código:** análise estática com `SonarQube`
 - **Testes de carga:** `Apache JMeter`
 
 ## Segurança aplicada
