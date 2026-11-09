@@ -70,6 +70,16 @@ Plataforma self-hosted para governança e execução de releases, com aprovaçõ
 - **Infra:** `Ubuntu Server` · `Cloudflare Tunnel`
 - [Entrar no ReleaseHub](https://releasehub.devforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/releasehub-showcase) · [Pontos para entrevista](https://github.com/ALRSO85/releasehub-showcase/blob/main/docs/interview-talking-points-ptbr.md)
 
+## Experimento técnico
+
+### [Financial](https://github.com/ALRSO85/Financial) — API demonstrativa
+
+API em C#/.NET para registrar créditos e débitos e consultar saldos atuais ou históricos.
+
+- **Arquitetura:** ledger imutável, escritas idempotentes, outbox transacional e projeção de leitura assíncrona.
+- **Stack:** `.NET 10` `ASP.NET Core Minimal APIs` `PostgreSQL` `JWT` `OpenTelemetry`
+- [Explorar código e arquitetura](https://github.com/ALRSO85/Financial)
+
 ## Outros produtos
 
 ### [Chegou Inteiro](https://chegouinteiro.devforyou.com.br/)
