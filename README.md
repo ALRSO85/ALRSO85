@@ -39,6 +39,16 @@ Plataforma esportiva para atletas, organizadores, comunidades e parceiros, com e
 
 ---
 
+### [Chegou Inteiro](https://chegouinteiro.devforyou.com.br/)
+
+Plataforma em demonstração para consultar experiências de entrega por CEP, loja e modalidade, com mapa regional e indicadores sujeitos a uma amostra mínima. O site público está em modo de consulta: novos cadastros e relatos estão desativados.
+
+- **Engenharia:** aplicação modular em ASP.NET Core MVC, com moderação de relatos e publicação de resultados agregados.
+- **Stack:** `C#` `.NET 10` `ASP.NET Core MVC` `EF Core` `SQL Server` `Bootstrap` `Leaflet`
+- [Acessar demonstração](https://chegouinteiro.devforyou.com.br/)
+
+---
+
 ### [WorkTime](https://worktime.devforyou.com.br/account/login)
 
 Gestão e conciliação de horas, jornadas, equipes, férias, fechamentos, auditoria e relatórios.
