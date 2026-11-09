@@ -11,9 +11,11 @@
 
 **.NET · Distributed Systems · Cloud Architecture · AI Engineering · Digital Products**
 
-Desenho sistemas e produtos digitais da arquitetura à operação, com foco em .NET, modernização e soluções que evoluem com o negócio.
+Arquiteto de Software e Engenheiro de Software Sênior, com foco em .NET e modernização de sistemas. Desenho e evoluo produtos digitais da arquitetura à operação, conectando decisões técnicas a necessidades de negócio.
 
 [LinkedIn](https://www.linkedin.com/in/alexandre-roberto-souza-software-engineer/) · [DevsForYou](https://devsforyou.com.br/) · [SportsForYou](https://sportsforyou.com.br/)
+
+**Cases técnicos:** [WorkTime — integrações e fluxos corporativos](https://github.com/ALRSO85/worktime-showcase) · [SportsForYou — arquitetura modular](https://github.com/ALRSO85/sportsforyou-showcase) · [ReleaseHub — governança de releases](https://github.com/ALRSO85/releasehub-showcase)
 
 **Navegação:** [Sobre](#sobre) · [Projetos](#projetos-em-destaque) · [Engenharia de IA](#engenharia-de-ia) · [Competências](#compet%C3%AAncias-t%C3%A9cnicas) · [Segurança](#seguran%C3%A7a-aplicada) · [GitHub](#github) · [Contato](#contato)
 
