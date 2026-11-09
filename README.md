@@ -27,14 +27,14 @@ Arquiteto de Software e Engenheiro de Software Sênior, sou responsável pelo de
 
 Cases que demonstram arquitetura de software, engenharia .NET, integrações e governança de releases.
 
-### [WorkTime](https://worktime.devforyou.com.br/account/login)
+### [WorkTime](https://worktime.devforyou.com.br/)
 
 Aplicação para gestão e conciliação de horas, jornadas, equipes, férias, fechamentos, auditoria e relatórios.
 
 - **Integrações:** Businessmap/Kanbanize, com sincronização de apontamentos, e Ahgora, com importação de horas.
 - **Stack:** `C#` `.NET 10` `ASP.NET Core` `EF Core` `SQL Server`
 - **Infra:** `Ubuntu Server` · `Cloudflare Tunnel`
-- [Acessar WorkTime](https://worktime.devforyou.com.br/account/login) · [Ver showcase técnico](https://github.com/ALRSO85/worktime-showcase)
+- [Acessar WorkTime](https://worktime.devforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/worktime-showcase)
 
 ---
 
