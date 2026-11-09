@@ -37,7 +37,7 @@ Aplicação para gestão e conciliação de horas, jornadas, equipes, férias, f
 
 - **Integrações:** Businessmap/Kanbanize, com sincronização de apontamentos, e Ahgora, com importação de horas.
 - **Stack:** `C#` `.NET 10` `ASP.NET Core` `EF Core` `SQL Server`
-- **Infra:** `Ubuntu Server` · `Docker`
+- **Infra:** `Ubuntu Server` · `Docker` · `Cloudflare Tunnel`
 - [Acessar WorkTime](https://worktime.devforyou.com.br/account/login) · [Ver showcase técnico](https://github.com/ALRSO85/worktime-showcase)
 
 ---
@@ -48,7 +48,7 @@ Plataforma esportiva para atletas, organizadores, comunidades e parceiros, com e
 
 - **Engenharia:** arquitetura modular, qualidade automatizada, governança de dados, acessibilidade e SEO.
 - **Stack:** `C#` `.NET 10` `ASP.NET Core` `SQL Server` `Docker`
-- **Infra:** `Ubuntu Server` · `Docker`
+- **Infra:** `Ubuntu Server` · `Docker` · `Cloudflare Tunnel`
 - [Acessar produto](https://sportsforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/sportsforyou-showcase) · [Artigo sobre arquitetura modular](https://pt.linkedin.com/pulse/arquitetura-modular-aplicada-uma-plataforma-digital-para-souza-g8btf)
 
 ---
@@ -82,7 +82,7 @@ Tenho aprofundado meus estudos em engenharia de IA e explorado o uso de LLMs no 
 - **Design de software e arquitetura:** `DDD` `Clean Architecture` `Arquitetura modular` `Microsserviços` `Sistemas orientados a eventos`
 - **Dados:** `SQL Server` `MySQL` `PostgreSQL` `Redis` `Entity Framework Core`
 - **Web:** `HTML` `CSS` `Bootstrap` `JavaScript` `TypeScript` `Interfaces responsivas`
-- **Cloud e entrega:** `Docker` `Linux` `Azure` `AWS` `Cloudflare` `CI/CD`
+- **Cloud e entrega:** `Docker` `Linux` `Ubuntu Server` `Azure` `AWS` `Cloudflare DNS` `Cloudflare Tunnel` `CI/CD`
 - **Segurança:** `CSRF` `Cookies seguros` `Rate limiting` `SHA-256` `SBOM` `Dados biométricos`
 - **Engenharia de software:** `Modernização` `Integrações` `Desempenho` `Resiliência` `Observabilidade`
 - **Engenharia de IA:** `LLMs` `Revisão de código` `Documentação` `Análise de logs` `Planejamento arquitetural`
