@@ -67,7 +67,7 @@ Plataforma self-hosted para governança e execução de releases, com aprovaçõ
 
 ## Open source
 
-**[FingerBridge](https://github.com/ALRSO85/fingerbridge)** — Biblioteca para integrar leitores biométricos a aplicações Windows em .NET Framework 4.8, com providers independentes.
+**[FingerBridge](https://github.com/ALRSO85/fingerbridge)** — Projeto open source criado e mantido por mim: biblioteca para integrar leitores biométricos a aplicações Windows em .NET Framework 4.8, com providers independentes.
 
 `C#` `.NET Framework` `WinForms` `Biometria` · [Licença MIT](https://github.com/ALRSO85/fingerbridge/blob/main/LICENSE) · [Explorar repositório](https://github.com/ALRSO85/fingerbridge)
 
