@@ -17,7 +17,7 @@ Arquiteto de Software e Engenheiro de Software Sênior, atuo em aplicações cor
 
 **Cases técnicos:** [WorkTime — integrações e fluxos corporativos](https://github.com/ALRSO85/worktime-showcase) · [SportsForYou — arquitetura modular](https://github.com/ALRSO85/sportsforyou-showcase) · [ReleaseHub — governança de releases](https://github.com/ALRSO85/releasehub-showcase)
 
-**Navegação:** [Cases](#projetos-em-destaque) · [Outros produtos](#outros-produtos) · [Engenharia de IA](#engenharia-de-ia) · [Competências](#compet%C3%AAncias-t%C3%A9cnicas) · [Segurança](#seguran%C3%A7a-aplicada) · [GitHub](#github) · [Contato](#contato)
+**Navegação:** [Cases](#projetos-em-destaque) · [Outros produtos](#outros-produtos) · [Open source](#open-source) · [Engenharia de IA](#engenharia-de-ia) · [Competências](#compet%C3%AAncias-t%C3%A9cnicas) · [Segurança](#seguran%C3%A7a-aplicada) · [GitHub](#github) · [Contato](#contato)
 
 </div>
 
@@ -63,7 +63,7 @@ Plataforma self-hosted para governança e execução de releases, com aprovaçõ
 - **[Chegou Inteiro](https://chegouinteiro.devforyou.com.br/):** plataforma para consulta regional de experiências de entrega. A instância pública é uma demonstração com dados sintéticos, sem cobertura real comprovada e com cadastros e relatos desativados. `ASP.NET Core MVC` · Hospedagem: `Ubuntu Server` · `Docker` · [Acessar demonstração](https://chegouinteiro.devforyou.com.br/)
 - **[Doguinhos 220v](https://doguinhos220v.com.br/):** portal pet com artigos, eventos, vídeos e recomendações de produtos. `PHP 8.5` · `Bootstrap 5.3` · Hospedagem: `Ubuntu Server` · `Apache` · [Ver showcase técnico](https://github.com/ALRSO85/doguinhos-showcase)
 
-### Projeto open source
+## Open source
 
 **[FingerBridge](https://github.com/ALRSO85/fingerbridge)** — Biblioteca para integrar leitores biométricos a aplicações Windows em .NET Framework 4.8, com providers independentes.
 
