@@ -41,9 +41,9 @@ Plataforma esportiva para atletas, organizadores, comunidades e parceiros, com e
 
 ### [Chegou Inteiro](https://chegouinteiro.devforyou.com.br/)
 
-Plataforma em demonstração para consultar experiências de entrega por CEP, loja e modalidade, com mapa regional e indicadores sujeitos a uma amostra mínima. O site público está em modo de consulta: novos cadastros e relatos estão desativados.
+Projeto de plataforma para consultar experiências de entrega por CEP, loja e modalidade, com mapa regional. A instância pública está somente em modo de demonstração: os exemplos são sintéticos, a auditoria disponível não comprovou cobertura real e novos cadastros e relatos estão desativados.
 
-- **Engenharia:** aplicação modular em ASP.NET Core MVC, com moderação de relatos e publicação de resultados agregados.
+- **Engenharia:** aplicação modular em ASP.NET Core MVC, com moderação de relatos e regra de amostra mínima antes da publicação de indicadores.
 - **Stack:** `C#` `.NET 10` `ASP.NET Core MVC` `EF Core` `SQL Server` `Bootstrap` `Leaflet`
 - [Acessar demonstração](https://chegouinteiro.devforyou.com.br/)
 
