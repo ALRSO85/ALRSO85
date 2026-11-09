@@ -81,7 +81,6 @@ Tenho aprofundado meus estudos em engenharia de IA e explorado o uso de LLMs no 
 - **Cloud e entrega:** `Docker` `Linux` `Ubuntu Server` `Azure` `AWS` `Cloudflare DNS` `Cloudflare Tunnel` `CI/CD`
 - **Segurança:** `CSRF` `Cookies seguros` `Rate limiting` `SHA-256` `SBOM` `Dados biométricos`
 - **Engenharia de software:** `Modernização` `Integrações` `Desempenho` `Resiliência` `Observabilidade`
-- **Engenharia de IA:** `LLMs` `Revisão de código` `Documentação` `Análise de logs` `Planejamento arquitetural`
 
 ## Segurança aplicada
 
@@ -92,7 +91,7 @@ Tenho aprofundado meus estudos em engenharia de IA e explorado o uso de LLMs no 
 
 ## Temas de interesse
 
-Sistemas distribuídos, SaaS, inteligência artificial aplicada ao desenvolvimento, automação, infraestrutura self-hosted, cloud computing, observabilidade e DevOps.
+Sistemas distribuídos, produtos SaaS, infraestrutura self-hosted e IA aplicada à engenharia de software.
 
 ## GitHub
 
