@@ -60,7 +60,7 @@ Plataforma self-hosted para governança e execução de releases, com aprovaçõ
 
 ## Outros produtos
 
-- **[Chegou Inteiro](https://chegouinteiro.devforyou.com.br/):** plataforma para consulta regional de experiências de entrega. A instância pública é uma demonstração com dados sintéticos, sem cobertura real comprovada e com cadastros e relatos desativados. `ASP.NET Core MVC` · Hospedagem: `Ubuntu Server` · `Docker` · [Acessar demonstração](https://chegouinteiro.devforyou.com.br/)
+- **[Chegou Inteiro](https://chegouinteiro.devforyou.com.br/):** plataforma para consulta regional de experiências de entrega. A instância pública é uma demonstração com dados sintéticos, sem cobertura real comprovada e com cadastros e relatos desativados. `ASP.NET Core MVC` · Hospedagem: `Ubuntu Server` · `Docker` · [Acessar demonstração](https://chegouinteiro.devforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/chegouinteiro-showcase)
 - **[Doguinhos 220v](https://doguinhos220v.com.br/):** portal pet com artigos, eventos, vídeos e recomendações de produtos.
   - **Contribuição:** desenvolvedor do portal pela DevsForYou.
   - **Stack:** `PHP 8.5` · `Bootstrap 5.3` · `Ubuntu Server` · `Apache` · [Ver showcase técnico](https://github.com/ALRSO85/doguinhos-showcase)
