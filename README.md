@@ -38,7 +38,7 @@ Aplicação para gestão e conciliação de horas, jornadas, equipes, férias, f
 - **Integrações:** Businessmap/Kanbanize, com sincronização de apontamentos, e Ahgora, com importação de horas.
 - **Stack:** `C#` `.NET 10` `ASP.NET Core` `EF Core` `SQL Server`
 - **Infra:** `Ubuntu Server` · `Cloudflare Tunnel`
-- [Entrar no WorkTime](https://worktime.devforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/worktime-showcase)
+- [Entrar no WorkTime](https://worktime.devforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/worktime-showcase) · [Pontos para entrevista](https://github.com/ALRSO85/worktime-showcase/blob/main/docs/interview-talking-points-ptbr.md)
 
 ---
 
@@ -53,7 +53,7 @@ Plataforma esportiva para atletas, organizadores, comunidades e parceiros, com e
 - **Engenharia:** arquitetura modular, qualidade automatizada, governança de dados, acessibilidade e SEO.
 - **Stack:** `C#` `.NET 10` `ASP.NET Core` `SQL Server` `Docker`
 - **Infra:** `Ubuntu Server` · `Cloudflare Tunnel`
-- [Acessar produto](https://sportsforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/sportsforyou-showcase) · [Artigo sobre arquitetura modular](https://pt.linkedin.com/pulse/arquitetura-modular-aplicada-uma-plataforma-digital-para-souza-g8btf)
+- [Acessar produto](https://sportsforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/sportsforyou-showcase) · [Pontos para entrevista](https://github.com/ALRSO85/sportsforyou-showcase/blob/main/docs/interview-talking-points-ptbr.md) · [Artigo sobre arquitetura modular](https://pt.linkedin.com/pulse/arquitetura-modular-aplicada-uma-plataforma-digital-para-souza-g8btf)
 
 ---
 
@@ -68,7 +68,7 @@ Plataforma self-hosted para governança e execução de releases, com aprovaçõ
 - **Engenharia:** rastreabilidade de artefatos e políticas de integridade para releases.
 - **Stack:** `.NET 10` `ASP.NET Core` `Docker` `SQL Server`
 - **Infra:** `Ubuntu Server` · `Cloudflare Tunnel`
-- [Entrar no ReleaseHub](https://releasehub.devforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/releasehub-showcase)
+- [Entrar no ReleaseHub](https://releasehub.devforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/releasehub-showcase) · [Pontos para entrevista](https://github.com/ALRSO85/releasehub-showcase/blob/main/docs/interview-talking-points-ptbr.md)
 
 ## Outros produtos
 
