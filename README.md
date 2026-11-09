@@ -116,3 +116,7 @@ Estou aberto a conversar sobre arquitetura, engenharia de software e produtos di
 - [LinkedIn](https://www.linkedin.com/in/alexandre-roberto-souza-software-engineer/)
 - [DevsForYou](https://devsforyou.com.br/)
 - Belo Horizonte, Minas Gerais, Brasil
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=ALRSO85&label=visitas&color=6e7681&style=flat-square" alt="Visualizações do perfil" />
+</p>
