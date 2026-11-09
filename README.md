@@ -34,7 +34,7 @@ Aplicação para gestão e conciliação de horas, jornadas, equipes, férias, f
 - **Integrações:** Businessmap/Kanbanize, com sincronização de apontamentos, e Ahgora, com importação de horas.
 - **Stack:** `C#` `.NET 10` `ASP.NET Core` `EF Core` `SQL Server`
 - **Infra:** `Ubuntu Server` · `Cloudflare Tunnel`
-- [Acessar WorkTime](https://worktime.devforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/worktime-showcase)
+- [Entrar no WorkTime](https://worktime.devforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/worktime-showcase)
 
 ---
 
@@ -56,7 +56,7 @@ Plataforma self-hosted para governança e execução de releases, com aprovaçõ
 - **Engenharia:** rastreabilidade de artefatos e políticas de integridade para releases.
 - **Stack:** `.NET 10` `ASP.NET Core` `Docker` `SQL Server`
 - **Infra:** `Ubuntu Server` · `Cloudflare Tunnel`
-- [Acessar ReleaseHub](https://releasehub.devforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/releasehub-showcase)
+- [Entrar no ReleaseHub](https://releasehub.devforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/releasehub-showcase)
 
 ## Outros produtos
 
