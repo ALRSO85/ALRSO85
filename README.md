@@ -11,7 +11,7 @@
 
 **.NET · Distributed Systems · Cloud Architecture · AI Engineering · Digital Products**
 
-Arquiteto de Software e Engenheiro de Software Sênior, atuo em aplicações corporativas e produtos da [DevsForYou](https://devsforyou.com.br/). Com foco em .NET e modernização, conecto decisões de arquitetura a necessidades de negócio e acompanho soluções da concepção à operação.
+Arquiteto de Software e Engenheiro de Software Sênior, sou responsável pelo desenho, arquitetura e construção de produtos da [DevsForYou](https://devsforyou.com.br/), incluindo WorkTime, SportsForYou e ReleaseHub. Com foco em .NET e modernização, conecto decisões arquiteturais às necessidades de negócio e acompanho as soluções da concepção à operação.
 
 [LinkedIn](https://www.linkedin.com/in/alexandre-roberto-souza-software-engineer/) · [DevsForYou](https://devsforyou.com.br/) · [SportsForYou](https://sportsforyou.com.br/)
 
