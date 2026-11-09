@@ -31,6 +31,10 @@ Cases que demonstram arquitetura de software, engenharia .NET, integrações e g
 
 Aplicação para gestão e conciliação de horas, jornadas, equipes, férias, fechamentos, auditoria e relatórios.
 
+- **Cenário e desafio:** conciliar apontamentos internos e externos preservando a rastreabilidade, inclusive quando o provedor não confirma se processou um envio.
+- **Decisão:** reservar cada escrita com uma chave idempotente antes da chamada; diante de confirmação incerta, registrar `Unknown` e não reenviar automaticamente.
+- **Efeito técnico e princípio:** falha confirmada e resultado incerto são estados distintos. Retries automáticos ficam restritos a `GET` e `HEAD` transitórios; escritas exigem conferência antes de nova tentativa.
+
 - **Integrações:** Businessmap/Kanbanize, com sincronização de apontamentos, e Ahgora, com importação de horas.
 - **Stack:** `C#` `.NET 10` `ASP.NET Core` `EF Core` `SQL Server`
 - **Infra:** `Ubuntu Server` · `Cloudflare Tunnel`
@@ -42,6 +46,10 @@ Aplicação para gestão e conciliação de horas, jornadas, equipes, férias, f
 
 Plataforma esportiva para atletas, organizadores, comunidades e parceiros, com eventos, perfis e integrações.
 
+- **Cenário e desafio:** a plataforma combina módulos web com tarefas assíncronas que precisam de ciclo operacional próprio.
+- **Decisão:** executar o `JobCenter` como serviço .NET Worker separado, com container, health check e ciclo de operação próprios.
+- **Efeito técnico e princípio:** o processamento em segundo plano tem uma fronteira operacional explícita, separada da aplicação web.
+
 - **Engenharia:** arquitetura modular, qualidade automatizada, governança de dados, acessibilidade e SEO.
 - **Stack:** `C#` `.NET 10` `ASP.NET Core` `SQL Server` `Docker`
 - **Infra:** `Ubuntu Server` · `Cloudflare Tunnel`
@@ -52,6 +60,10 @@ Plataforma esportiva para atletas, organizadores, comunidades e parceiros, com e
 ### [ReleaseHub](https://releasehub.devforyou.com.br/)
 
 Plataforma self-hosted para governança e execução de releases, com aprovações, validações e auditoria.
+
+- **Cenário e desafio:** um rollback altera o ambiente remoto e o catálogo local em etapas; uma falha entre elas pode deixar os estados divergentes.
+- **Decisão:** reservar a operação como `Revertendo`, confirmar o rollback remoto e atualizar o catálogo antes de concluir como `Revertida`; manter falhas explícitas e reconciliáveis.
+- **Efeito técnico e princípio:** o sistema não declara sucesso antes de confirmar e reconciliar os estados; operações recuperáveis usam uma chave idempotente.
 
 - **Engenharia:** rastreabilidade de artefatos e políticas de integridade para releases.
 - **Stack:** `.NET 10` `ASP.NET Core` `Docker` `SQL Server`
