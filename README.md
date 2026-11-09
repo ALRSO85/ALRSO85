@@ -17,7 +17,7 @@ Arquiteto de Software e Engenheiro de Software Sênior, com foco em .NET e moder
 
 **Cases técnicos:** [WorkTime — integrações e fluxos corporativos](https://github.com/ALRSO85/worktime-showcase) · [SportsForYou — arquitetura modular](https://github.com/ALRSO85/sportsforyou-showcase) · [ReleaseHub — governança de releases](https://github.com/ALRSO85/releasehub-showcase)
 
-**Navegação:** [Sobre](#sobre) · [Projetos](#projetos-em-destaque) · [Engenharia de IA](#engenharia-de-ia) · [Competências](#compet%C3%AAncias-t%C3%A9cnicas) · [Segurança](#seguran%C3%A7a-aplicada) · [GitHub](#github) · [Contato](#contato)
+**Navegação:** [Sobre](#sobre) · [Cases](#projetos-em-destaque) · [Outros produtos](#outros-produtos) · [Engenharia de IA](#engenharia-de-ia) · [Competências](#compet%C3%AAncias-t%C3%A9cnicas) · [Segurança](#seguran%C3%A7a-aplicada) · [GitHub](#github) · [Contato](#contato)
 
 </div>
 
@@ -29,7 +29,17 @@ Atuo em aplicações corporativas e desenvolvo produtos pela **[DevsForYou](http
 
 ## Projetos em destaque
 
-Produtos digitais e projetos que mostram minha atuação em arquitetura, desenvolvimento e integração de sistemas.
+Cases que demonstram arquitetura de software, engenharia .NET, integrações e governança de releases.
+
+### [WorkTime](https://worktime.devforyou.com.br/account/login)
+
+Aplicação para gestão e conciliação de horas, jornadas, equipes, férias, fechamentos, auditoria e relatórios.
+
+- **Integrações:** Businessmap/Kanbanize, com sincronização de apontamentos, e Ahgora, com importação de horas.
+- **Stack:** `C#` `.NET 10` `ASP.NET Core` `EF Core` `SQL Server`
+- [Acessar WorkTime](https://worktime.devforyou.com.br/account/login) · [Ver showcase técnico](https://github.com/ALRSO85/worktime-showcase)
+
+---
 
 ### [SportsForYou](https://sportsforyou.com.br/)
 
@@ -41,44 +51,18 @@ Plataforma esportiva para atletas, organizadores, comunidades e parceiros, com e
 
 ---
 
-### [Chegou Inteiro](https://chegouinteiro.devforyou.com.br/)
-
-Projeto de plataforma para consultar experiências de entrega por CEP, loja e modalidade, com mapa regional. A instância pública está somente em modo de demonstração: os exemplos são sintéticos, a auditoria disponível não comprovou cobertura real e novos cadastros e relatos estão desativados.
-
-- **Engenharia:** aplicação modular em ASP.NET Core MVC, com moderação de relatos e regra de amostra mínima antes da publicação de indicadores.
-- **Stack:** `C#` `.NET 10` `ASP.NET Core MVC` `EF Core` `SQL Server` `Bootstrap` `Leaflet`
-- [Acessar demonstração](https://chegouinteiro.devforyou.com.br/)
-
----
-
-### [WorkTime](https://worktime.devforyou.com.br/account/login)
-
-Gestão e conciliação de horas, jornadas, equipes, férias, fechamentos, auditoria e relatórios.
-
-- **Integrações:** Businessmap/Kanbanize, com sincronização de apontamentos, e Ahgora, com importação de horas.
-- **Stack:** `C#` `.NET 10` `ASP.NET Core` `EF Core` `SQL Server`
-- [Entrar no WorkTime](https://worktime.devforyou.com.br/account/login) · [Ver showcase técnico](https://github.com/ALRSO85/worktime-showcase)
-
----
-
-### [Doguinhos 220v](https://doguinhos220v.com.br/)
-
-Portal pet com artigos, eventos, vídeos e recomendações de produtos, desenvolvido pela DevsForYou.
-
-- **Engenharia:** aplicação modular em PHP, painel administrativo, persistência JSON, SEO técnico e acessibilidade.
-- **Stack:** `PHP 8.5` `Bootstrap 5.3` `JavaScript` `JSON`
-- [Acessar Doguinhos 220v](https://doguinhos220v.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/doguinhos-showcase)
-
----
-
 ### [ReleaseHub](https://releasehub.devforyou.com.br/)
 
 Plataforma self-hosted para governança e execução de releases, com aprovações, validações e auditoria.
 
 - **Engenharia:** rastreabilidade de artefatos e políticas de integridade para releases.
 - **Stack:** `.NET 10` `ASP.NET Core` `Docker` `SQL Server`
-- [Entrar no ReleaseHub](https://releasehub.devforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/releasehub-showcase)
+- [Acessar ReleaseHub](https://releasehub.devforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/releasehub-showcase)
 
+## Outros produtos
+
+- **[Chegou Inteiro](https://chegouinteiro.devforyou.com.br/):** plataforma para consulta regional de experiências de entrega. A instância pública é uma demonstração com dados sintéticos, sem cobertura real comprovada e com cadastros e relatos desativados. `ASP.NET Core MVC` · [Acessar demonstração](https://chegouinteiro.devforyou.com.br/)
+- **[Doguinhos 220v](https://doguinhos220v.com.br/):** portal pet com artigos, eventos, vídeos e recomendações de produtos. `PHP 8.5` · `Bootstrap 5.3` · [Ver showcase técnico](https://github.com/ALRSO85/doguinhos-showcase)
 ### Projeto open source
 
 **[FingerBridge](https://github.com/ALRSO85/fingerbridge)** — Biblioteca para integrar leitores biométricos a aplicações Windows em .NET Framework 4.8, com providers independentes.
