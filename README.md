@@ -133,7 +133,7 @@ Sistemas distribuídos, produtos SaaS, infraestrutura self-hosted e IA aplicada 
 
 ## GitHub
 
-Parte da minha atuação acontece em repositórios privados e ambientes corporativos. Os cartões abaixo são gerados pela [GitHub Action](.github/workflows/profile-summary-cards.yml) e podem não refletir toda essa atividade.
+Parte da minha atuação acontece em repositórios privados e ambientes corporativos. O cartão abaixo é gerado pela [GitHub Action](.github/workflows/profile-summary-cards.yml) e mostra a atividade que o GitHub disponibiliza para este perfil.
 
 <div align="center">
 
@@ -142,20 +142,6 @@ Parte da minha atuação acontece em repositórios privados e ambientes corporat
   <source media="(min-width: 481px) and (prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/0-profile-details.svg" />
   <source media="(min-width: 481px)" srcset="./profile-summary-card-output/github/0-profile-details.svg" />
   <img src="./profile-summary-card-output/mobile/github/0-profile-details.svg" alt="Resumo de atividade no GitHub" />
-</picture>
-
-</div>
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/2-most-commit-language.svg" />
-  <img src="./profile-summary-card-output/github/2-most-commit-language.svg" width="320" alt="Linguagens com mais commits nos repositórios analisados pelo GitHub" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/3-stats.svg" />
-  <img src="./profile-summary-card-output/github/3-stats.svg" width="320" alt="Estatísticas do GitHub: estrelas, commits, pull requests, issues e repositórios contribuídos" />
 </picture>
 
 </div>
