@@ -11,11 +11,11 @@
 
 **.NET · Distributed Systems · Cloud Architecture · AI Engineering · Digital Products**
 
-Arquiteto de Software e Engenheiro de Software Sênior, sou responsável pelo desenho, arquitetura e construção de produtos da [DevsForYou](https://devsforyou.com.br/), incluindo WorkTime, SportsForYou e ReleaseHub. Com foco em .NET e modernização, conecto decisões arquiteturais às necessidades de negócio e acompanho as soluções da concepção à operação.
+Na [DevsForYou](https://devsforyou.com.br/), sou responsável pelo desenho, pela arquitetura e pela construção de WorkTime, SportsForYou e ReleaseHub. Trabalho principalmente com .NET, arquitetura de sistemas e modernização de produtos.
 
 [LinkedIn](https://www.linkedin.com/in/alexandre-roberto-souza-software-engineer/) · [DevsForYou](https://devsforyou.com.br/) · [SportsForYou](https://sportsforyou.com.br/)
 
-**Cases técnicos:** [WorkTime — integração idempotente](https://github.com/ALRSO85/worktime-showcase#integra%C3%A7%C3%B5es-resilientes) · [SportsForYou — worker independente](https://github.com/ALRSO85/sportsforyou-showcase#architecture-decision-independent-background-processing) · [ReleaseHub — rollback com reconciliação](https://github.com/ALRSO85/releasehub-showcase#recupera%C3%A7%C3%A3o-de-rollback)
+**Cases técnicos:** [WorkTime — integração idempotente](https://github.com/ALRSO85/worktime-showcase#integra%C3%A7%C3%B5es-resilientes) · [SportsForYou — worker independente](https://github.com/ALRSO85/sportsforyou-showcase#background-processing) · [ReleaseHub — rollback com reconciliação](https://github.com/ALRSO85/releasehub-showcase#recupera%C3%A7%C3%A3o-de-rollback)
 
 **Navegação:** [Cases](#projetos-em-destaque) · [Experimento técnico](#experimento-t%C3%A9cnico) · [Outros produtos](#outros-produtos) · [Open source](#open-source) · [Engenharia de IA](#engenharia-de-ia) · [Competências](#compet%C3%AAncias-t%C3%A9cnicas) · [Segurança](#seguran%C3%A7a-aplicada) · [GitHub](#github) · [Contato](#contato)
 
@@ -25,20 +25,13 @@ Arquiteto de Software e Engenheiro de Software Sênior, sou responsável pelo de
 
 ## Projetos em destaque
 
-Cases que demonstram arquitetura de software, engenharia .NET, integrações e governança de releases.
+Três exemplos de decisões sobre integrações, processamento assíncrono e releases.
 
 ### [WorkTime](https://worktime.devforyou.com.br/)
 
 Aplicação para gestão e conciliação de horas, jornadas, equipes, férias, fechamentos, auditoria e relatórios.
 
-- **Cenário e desafio:** conciliar apontamentos internos e externos preservando a rastreabilidade, inclusive quando o provedor não confirma se processou um envio.
-- **Decisão:** reservar cada escrita com uma chave idempotente antes da chamada; diante de confirmação incerta, registrar `Unknown` e não reenviar automaticamente.
-- **Efeito técnico e princípio:** falha confirmada e resultado incerto são estados distintos. Retries automáticos ficam restritos a `GET` e `HEAD` transitórios; escritas exigem conferência antes de nova tentativa.
-
-- **Integrações:** Businessmap/Kanbanize, com sincronização de apontamentos, e Ahgora, com importação de horas.
-- **Stack:** `C#` `.NET 10` `ASP.NET Core` `EF Core` `SQL Server`
-- **Infra:** `Ubuntu Server` · `Cloudflare Tunnel`
-- [Entrar no WorkTime](https://worktime.devforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/worktime-showcase)
+Um dos desafios é sincronizar apontamentos quando o provedor pode processar a escrita sem confirmar a resposta. O WorkTime reserva uma chave idempotente antes do envio, registra `Unknown` quando não consegue confirmar o resultado e não repete a operação às cegas. Os retries automáticos ficam restritos a leituras transitórias `GET` e `HEAD`. Integra-se ao Businessmap/Kanbanize e ao Ahgora, e usa C#, .NET 10, ASP.NET Core, EF Core e SQL Server. Roda em Ubuntu Server, com Cloudflare Tunnel. [Acessar o WorkTime](https://worktime.devforyou.com.br/) · [Ver o showcase técnico](https://github.com/ALRSO85/worktime-showcase).
 
 ---
 
@@ -46,14 +39,7 @@ Aplicação para gestão e conciliação de horas, jornadas, equipes, férias, f
 
 Plataforma esportiva para atletas, organizadores, comunidades e parceiros, com eventos, perfis e integrações.
 
-- **Cenário e desafio:** a plataforma combina módulos web com tarefas assíncronas que precisam de ciclo operacional próprio.
-- **Decisão:** executar o `JobCenter` como serviço .NET Worker separado, com container, health check e ciclo de operação próprios.
-- **Efeito técnico e princípio:** o processamento em segundo plano tem uma fronteira operacional explícita, separada da aplicação web.
-
-- **Engenharia:** arquitetura modular, qualidade automatizada, governança de dados, acessibilidade e SEO.
-- **Stack:** `C#` `.NET 10` `ASP.NET Core` `SQL Server` `Docker`
-- **Infra:** `Ubuntu Server` · `Cloudflare Tunnel`
-- [Acessar produto](https://sportsforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/sportsforyou-showcase) · [Artigo sobre arquitetura modular](https://pt.linkedin.com/pulse/arquitetura-modular-aplicada-uma-plataforma-digital-para-souza-g8btf)
+No SportsForYou, os módulos de negócio ficam na aplicação web e os jobs rodam no `Sport.Worker.JobCenter`, um .NET Worker com container e health check próprios. Essa separação dá ao processamento assíncrono um ciclo operacional independente. A plataforma usa C#, .NET 10, ASP.NET Core, SQL Server e Docker, em Ubuntu Server com Cloudflare Tunnel. [Acessar o produto](https://sportsforyou.com.br/) · [Ver o showcase técnico](https://github.com/ALRSO85/sportsforyou-showcase) · [Ler o artigo sobre arquitetura modular](https://pt.linkedin.com/pulse/arquitetura-modular-aplicada-uma-plataforma-digital-para-souza-g8btf).
 
 ---
 
@@ -61,14 +47,7 @@ Plataforma esportiva para atletas, organizadores, comunidades e parceiros, com e
 
 Plataforma self-hosted para governança e execução de releases, com aprovações, validações e auditoria.
 
-- **Cenário e desafio:** um rollback altera o ambiente remoto e o catálogo local em etapas; uma falha entre elas pode deixar os estados divergentes.
-- **Decisão:** reservar a operação como `Revertendo`, confirmar o rollback remoto e atualizar o catálogo antes de concluir como `Revertida`; manter falhas explícitas e reconciliáveis.
-- **Efeito técnico e princípio:** o sistema não declara sucesso antes de confirmar e reconciliar os estados; operações recuperáveis usam uma chave idempotente.
-
-- **Engenharia:** rastreabilidade de artefatos e políticas de integridade para releases.
-- **Stack:** `.NET 10` `ASP.NET Core` `Docker` `SQL Server`
-- **Infra:** `Ubuntu Server` · `Cloudflare Tunnel`
-- [Entrar no ReleaseHub](https://releasehub.devforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/releasehub-showcase)
+No ReleaseHub, o rollback precisa atualizar o ambiente remoto e o catálogo local. A operação passa por `Revertendo` e só chega a `Revertida` depois das confirmações; falhas ficam registradas para reconciliação. O serviço usa .NET 10, ASP.NET Core, Docker e SQL Server em Ubuntu Server, com Cloudflare Tunnel. [Acessar o ReleaseHub](https://releasehub.devforyou.com.br/) · [Ver o showcase técnico](https://github.com/ALRSO85/releasehub-showcase).
 
 ## Experimento técnico
 
@@ -76,9 +55,7 @@ Plataforma self-hosted para governança e execução de releases, com aprovaçõ
 
 API em C#/.NET para registrar créditos e débitos e consultar saldos atuais ou históricos.
 
-- **Arquitetura:** ledger imutável, escritas idempotentes, outbox transacional e projeção de leitura assíncrona.
-- **Stack:** `.NET 10` `ASP.NET Core Minimal APIs` `PostgreSQL` `JWT` `OpenTelemetry`
-- [Explorar código e arquitetura](https://github.com/ALRSO85/Financial)
+O experimento usa ledger imutável, escritas idempotentes, outbox transacional e projeção de leitura assíncrona, com .NET 10, ASP.NET Core Minimal APIs, PostgreSQL, JWT e OpenTelemetry. [Explorar o código e a arquitetura](https://github.com/ALRSO85/Financial).
 
 ## Outros produtos
 
@@ -86,17 +63,13 @@ API em C#/.NET para registrar créditos e débitos e consultar saldos atuais ou 
 
 Plataforma para consulta regional de experiências de entrega.
 
-- **Estado da demonstração:** exemplos sintéticos, sem cobertura real comprovada; novos cadastros e relatos estão desativados.
-- **Stack:** `ASP.NET Core MVC` · `Ubuntu Server` · `Docker`
-- [Acessar demonstração](https://chegouinteiro.devforyou.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/chegouinteiro-showcase)
+A demonstração usa dados sintéticos e está em modo de consulta; não representa cobertura real de entregas. Novos cadastros e relatos estão desativados. O projeto usa ASP.NET Core MVC, Ubuntu Server e Docker. [Abrir a demonstração](https://chegouinteiro.devforyou.com.br/) · [Ver o showcase técnico](https://github.com/ALRSO85/chegouinteiro-showcase).
 
 ### [Doguinhos 220v](https://doguinhos220v.com.br/)
 
 Portal pet com artigos, eventos, vídeos e recomendações de produtos.
 
-- **Contribuição:** desenvolvimento do portal pela DevsForYou.
-- **Stack:** `PHP 8.5` · `Bootstrap 5.3` · `Ubuntu Server` · `Apache`
-- [Acessar portal](https://doguinhos220v.com.br/) · [Ver showcase técnico](https://github.com/ALRSO85/doguinhos-showcase)
+O portal foi desenvolvido pela DevsForYou com PHP 8.5 e Bootstrap 5.3, e roda em Ubuntu Server com Apache. [Acessar o portal](https://doguinhos220v.com.br/) · [Ver o showcase técnico](https://github.com/ALRSO85/doguinhos-showcase).
 
 ## Open source
 
@@ -106,7 +79,7 @@ Portal pet com artigos, eventos, vídeos e recomendações de produtos.
 
 ## Engenharia de IA
 
-Tenho aprofundado meus estudos em engenharia de IA e explorado o uso de LLMs no desenvolvimento de software. No [showcase do SportsForYou](https://github.com/ALRSO85/sportsforyou-showcase#what-this-demonstrates), descrevo fluxos assistidos por IA para documentação, análise de logs, planejamento arquitetural e decisões de engenharia. Também escrevi sobre [arquitetura AI-First no ecossistema .NET](https://pt.linkedin.com/pulse/ai-first-software-architecture-o-que-muda-quando-artificial-souza-mjcgf), abordando orquestração, busca semântica e guardrails.
+Tenho aprofundado meus estudos em engenharia de IA e explorado o uso de LLMs no desenvolvimento de software. No [showcase do SportsForYou](https://github.com/ALRSO85/sportsforyou-showcase#background-processing), apresento a arquitetura do produto e a separação do processamento assíncrono. Também escrevi sobre [arquitetura AI-First no ecossistema .NET](https://pt.linkedin.com/pulse/ai-first-software-architecture-o-que-muda-quando-artificial-souza-mjcgf), com foco em orquestração, busca semântica e guardrails.
 
 ## Competências técnicas
 
