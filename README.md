@@ -79,7 +79,7 @@ O portal foi desenvolvido pela DevsForYou com PHP 8.5 e Bootstrap 5.3, e roda em
 
 ## Engenharia de IA
 
-Tenho aprofundado meus estudos em engenharia de IA e explorado o uso de LLMs no desenvolvimento de software. No [showcase do SportsForYou](https://github.com/ALRSO85/sportsforyou-showcase#background-processing), apresento a arquitetura do produto e a separação do processamento assíncrono. Também escrevi sobre [arquitetura AI-First no ecossistema .NET](https://pt.linkedin.com/pulse/ai-first-software-architecture-o-que-muda-quando-artificial-souza-mjcgf), com foco em orquestração, busca semântica e guardrails.
+Tenho aprofundado meus estudos em engenharia de IA, com foco em aplicações de LLMs no desenvolvimento de software. No artigo sobre [arquitetura AI-First no ecossistema .NET](https://pt.linkedin.com/pulse/ai-first-software-architecture-o-que-muda-quando-artificial-souza-mjcgf), escrevi sobre orquestração, busca semântica e guardrails.
 
 ## Competências técnicas
 
