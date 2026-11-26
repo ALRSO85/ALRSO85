@@ -13,7 +13,7 @@
 
 Sou arquiteta de software e engenheira de software sênior. Na [DevsForYou](https://devsforyou.com.br/), respondo pelo desenho, pela arquitetura e pela construção de WorkTime, SportsForYou e ReleaseHub. Trabalho principalmente com .NET, arquitetura de sistemas e modernização de produtos.
 
-[LinkedIn](https://www.linkedin.com/in/alexandre-roberto-souza-software-engineer/) · [DevsForYou](https://devsforyou.com.br/) · [SportsForYou](https://sportsforyou.com.br/)
+[LinkedIn](https://www.linkedin.com/in/suzanna-souza-software-engineer/) · [DevsForYou](https://devsforyou.com.br/) · [SportsForYou](https://sportsforyou.com.br/)
 
 **Cases técnicos:** [WorkTime — integração idempotente](https://github.com/ALRSO85/worktime-showcase#integra%C3%A7%C3%B5es-resilientes) · [SportsForYou — worker independente](https://github.com/ALRSO85/sportsforyou-showcase#background-processing) · [ReleaseHub — rollback com reconciliação](https://github.com/ALRSO85/releasehub-showcase#recupera%C3%A7%C3%A3o-de-rollback)
 
@@ -123,7 +123,7 @@ Parte da minha atuação acontece em repositórios privados e ambientes corporat
 
 Estou aberta a conversar sobre arquitetura, engenharia de software e produtos digitais.
 
-- [LinkedIn](https://www.linkedin.com/in/alexandre-roberto-souza-software-engineer/)
+- [LinkedIn](https://www.linkedin.com/in/suzanna-souza-software-engineer/)
 - [DevsForYou](https://devsforyou.com.br/)
 - Belo Horizonte, Minas Gerais, Brasil
 
