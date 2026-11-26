@@ -43,6 +43,29 @@ jobs:
           DURATION: ""
           NAME: "Suzanna Souza"
 
+      - name: Translate activity card labels
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          output = Path("profile-summary-card-output")
+          translations = (
+              ("Contributions on GitHub", "contribuições no GitHub"),
+              ("Public Repos", "repositórios públicos"),
+              ("Joined GitHub ", "No GitHub há "),
+              (" years ago", " anos"),
+              (" year ago", " ano"),
+              (" contributions in the last year", " contribuições no último ano"),
+          )
+          for card in output.glob("*/0-profile-details.svg"):
+              svg = card.read_text(encoding="utf-8")
+              for source, target in translations:
+                  svg = svg.replace(source, target)
+              card.write_text(svg, encoding="utf-8")
+          PY
+
       - name: Generate narrow-screen activity cards
         shell: bash
         run: |

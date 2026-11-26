@@ -7,15 +7,15 @@
 
 # Suzanna Souza
 
-**Software Architect · Senior Software Engineer · AI Engineer**
+**Arquiteta de Software · Engenheira de Software Sênior · Engenheira de IA**
 
-**.NET · Distributed Systems · Cloud Architecture · Digital Products**
+**.NET · Sistemas Distribuídos · Arquitetura em Nuvem · Produtos Digitais**
 
 Na [DevsForYou](https://devsforyou.com.br/), respondo pelo desenho, pela arquitetura e pela construção de WorkTime, SportsForYou e ReleaseHub, com foco em .NET e modernização de produtos.
 
 [LinkedIn](https://www.linkedin.com/in/suzanna-souza-software-engineer/) · [DevsForYou](https://devsforyou.com.br/) · [SportsForYou](https://sportsforyou.com.br/)
 
-**Cases técnicos:** [WorkTime — integração idempotente](https://github.com/ALRSO85/worktime-showcase#integra%C3%A7%C3%B5es-resilientes) · [SportsForYou — worker independente](https://github.com/ALRSO85/sportsforyou-showcase#background-processing) · [ReleaseHub — rollback com reconciliação](https://github.com/ALRSO85/releasehub-showcase#recupera%C3%A7%C3%A3o-de-rollback) · [Chegou Inteiro — privacidade e agregação regional](https://github.com/ALRSO85/chegouinteiro-showcase#decis%C3%B5es-de-engenharia)
+**Casos técnicos:** [WorkTime — integração idempotente](https://github.com/ALRSO85/worktime-showcase#integra%C3%A7%C3%B5es-resilientes) · [SportsForYou — processador em segundo plano independente](https://github.com/ALRSO85/sportsforyou-showcase#background-processing) · [ReleaseHub — reversão com reconciliação](https://github.com/ALRSO85/releasehub-showcase#recupera%C3%A7%C3%A3o-de-rollback) · [Chegou Inteiro — privacidade e agregação regional](https://github.com/ALRSO85/chegouinteiro-showcase#decis%C3%B5es-de-engenharia)
 
 </div>
 
@@ -23,7 +23,7 @@ Na [DevsForYou](https://devsforyou.com.br/), respondo pelo desenho, pela arquite
 
 ## Projetos em destaque
 
-Três exemplos de decisões sobre integrações, processamento assíncrono e releases.
+Três exemplos de decisões sobre integrações, processamento assíncrono e publicação de versões.
 
 ### [WorkTime](https://worktime.devforyou.com.br/)
 
@@ -37,15 +37,15 @@ Um dos desafios é sincronizar apontamentos quando o provedor pode processar uma
 
 Plataforma esportiva para atletas, organizadores, comunidades e parceiros, com eventos, perfis e integrações.
 
-No SportsForYou, os módulos de negócio ficam na aplicação web e os jobs rodam no `Sport.Worker.JobCenter`, um .NET Worker com container e health check próprios. Essa separação dá ao processamento assíncrono um ciclo operacional independente. A plataforma usa C#, .NET 10, ASP.NET Core, SQL Server e Docker, em Ubuntu Server com Cloudflare Tunnel. [Acessar o produto](https://sportsforyou.com.br/) · [Ver o showcase técnico](https://github.com/ALRSO85/sportsforyou-showcase) · [Ler o artigo sobre arquitetura modular](https://pt.linkedin.com/pulse/arquitetura-modular-aplicada-uma-plataforma-digital-para-souza-g8btf).
+No SportsForYou, os módulos de negócio ficam na aplicação web e as tarefas em segundo plano rodam no `Sport.Worker.JobCenter`, um serviço .NET em segundo plano, em contêiner próprio e com verificação de saúde. Essa separação dá ao processamento assíncrono um ciclo operacional independente. A plataforma usa C#, .NET 10, ASP.NET Core, SQL Server e Docker, em Ubuntu Server com Cloudflare Tunnel. [Acessar o produto](https://sportsforyou.com.br/) · [Ver o showcase técnico](https://github.com/ALRSO85/sportsforyou-showcase) · [Ler o artigo sobre arquitetura modular](https://pt.linkedin.com/pulse/arquitetura-modular-aplicada-uma-plataforma-digital-para-souza-g8btf).
 
 ---
 
 ### [ReleaseHub](https://releasehub.devforyou.com.br/)
 
-Plataforma self-hosted para governança e execução de releases, com aprovações, validações e auditoria.
+Plataforma instalada em infraestrutura própria para governança e execução de versões, com aprovações, validações e auditoria.
 
-No ReleaseHub, o rollback precisa atualizar o ambiente remoto e o catálogo local. A operação passa por `Revertendo` e só chega a `Revertida` depois das confirmações; falhas ficam registradas para reconciliação. O serviço usa .NET 10, ASP.NET Core, Docker e SQL Server em Ubuntu Server, com Cloudflare Tunnel. [Entrar no ReleaseHub](https://releasehub.devforyou.com.br/) · [Ver o showcase técnico](https://github.com/ALRSO85/releasehub-showcase).
+No ReleaseHub, a reversão precisa atualizar o ambiente remoto e o catálogo local. A operação passa pelo estado `Revertendo` e só chega a `Revertida` depois das confirmações; falhas ficam registradas para reconciliação. O serviço usa .NET 10, ASP.NET Core, Docker e SQL Server em Ubuntu Server, com Cloudflare Tunnel. [Entrar no ReleaseHub](https://releasehub.devforyou.com.br/) · [Ver o showcase técnico](https://github.com/ALRSO85/releasehub-showcase).
 
 ## Experimento técnico
 
@@ -53,7 +53,7 @@ No ReleaseHub, o rollback precisa atualizar o ambiente remoto e o catálogo loca
 
 API em C#/.NET para registrar créditos e débitos e consultar saldos atuais ou históricos.
 
-O experimento usa ledger imutável, escritas idempotentes, outbox transacional e projeção de leitura assíncrona, com .NET 10, ASP.NET Core Minimal APIs, PostgreSQL, JWT e OpenTelemetry. [Explorar o código e a arquitetura](https://github.com/ALRSO85/Financial).
+O experimento usa um livro-razão imutável (ledger), escritas idempotentes, padrão outbox transacional e projeção de leitura assíncrona, com .NET 10, ASP.NET Core Minimal APIs, PostgreSQL, JWT e OpenTelemetry. [Explorar o código e a arquitetura](https://github.com/ALRSO85/Financial).
 
 ## Outros produtos
 
@@ -69,41 +69,41 @@ Portal pet com artigos, eventos, vídeos e recomendações de produtos.
 
 O portal foi desenvolvido pela DevsForYou com PHP 8.5 e Bootstrap 5.3, e roda em Ubuntu Server com Apache. [Acessar o portal](https://doguinhos220v.com.br/) · [Ver o showcase técnico](https://github.com/ALRSO85/doguinhos-showcase).
 
-## Open source
+## Código aberto
 
-**[FingerBridge](https://github.com/ALRSO85/fingerbridge)** — Projeto open source criado e mantido por mim: biblioteca para integrar leitores biométricos a aplicações Windows em .NET Framework 4.8, com providers independentes.
+**[FingerBridge](https://github.com/ALRSO85/fingerbridge)** — Projeto de código aberto criado e mantido por mim: biblioteca para integrar leitores biométricos a aplicações Windows em .NET Framework 4.8, com provedores independentes.
 
 `C#` `.NET Framework` `WinForms` `Biometria` · [Licença MIT](https://github.com/ALRSO85/fingerbridge/blob/main/LICENSE) · [Explorar repositório](https://github.com/ALRSO85/fingerbridge)
 
 ## Engenharia de IA
 
-Tenho aprofundado meus estudos em engenharia de IA, com foco em aplicações de LLMs no desenvolvimento de software. No artigo sobre [arquitetura AI-First no ecossistema .NET](https://pt.linkedin.com/pulse/ai-first-software-architecture-o-que-muda-quando-artificial-souza-mjcgf), escrevi sobre orquestração, busca semântica e guardrails.
+Tenho aprofundado meus estudos em engenharia de IA, com foco em aplicações de LLMs no desenvolvimento de software. No artigo sobre [arquitetura com IA desde a concepção no ecossistema .NET](https://pt.linkedin.com/pulse/ai-first-software-architecture-o-que-muda-quando-artificial-souza-mjcgf), escrevi sobre orquestração, busca semântica e mecanismos de controle.
 
 ## Competências técnicas
 
-- **Backend e APIs:** `C#` `.NET` `ASP.NET Core` `Node.js` `APIs REST`
+- **Serviços e APIs:** `C#` `.NET` `ASP.NET Core` `Node.js` `APIs REST`
 - **Design de software e arquitetura:** `DDD` `Clean Architecture` `Arquitetura modular` `Microsserviços` `Sistemas orientados a eventos`
 - **Dados:** `SQL Server` `MySQL` `PostgreSQL` `Redis` `Entity Framework Core`
 - **Web:** `HTML` `CSS` `Bootstrap` `JavaScript` `TypeScript` `Interfaces responsivas`
-- **Cloud e entrega:** `Docker` `Linux` `Ubuntu Server` `Azure` `AWS` `Cloudflare DNS` `Cloudflare Tunnel` `CI/CD`
-- **Segurança:** `CSRF` `Cookies seguros` `Rate limiting` `SHA-256` `SBOM` `Dados biométricos`
+- **Nuvem e entrega:** `Docker` `Linux` `Ubuntu Server` `Azure` `AWS` `Cloudflare DNS` `Cloudflare Tunnel` `CI/CD`
+- **Segurança:** `CSRF` `Cookies seguros` `Limitação de requisições` `SHA-256` `SBOM` `Dados biométricos`
 - **Engenharia de software:** `Modernização` `Integrações` `Desempenho` `Resiliência` `Observabilidade`
 - **Qualidade e testes:** análise estática com `SonarQube` e testes de carga com `Apache JMeter`
 
 ## Segurança aplicada
 
-- **Doguinhos 220v:** senhas com bcrypt, proteção CSRF, sessões administrativas com cookies HttpOnly/SameSite, rate limiting e validação de uploads.
-- **WorkTime:** ações protegidas contra CSRF, cookies de autenticação HttpOnly e políticas configuráveis de expiração, SameSite e Secure, além de rate limiting.
+- **Doguinhos 220v:** senhas com bcrypt, proteção CSRF, sessões administrativas com cookies HttpOnly/SameSite, limitação de requisições e validação de arquivos enviados.
+- **WorkTime:** ações protegidas contra CSRF, cookies de autenticação HttpOnly e políticas configuráveis de expiração, SameSite e Secure, além de limitação de requisições.
 - **ReleaseHub:** validação de hashes SHA-256 e políticas configuráveis para exigir assinatura, proveniência e SBOM de artefatos.
-- **[FingerBridge](https://github.com/ALRSO85/fingerbridge):** [política de segurança e relato privado](https://github.com/ALRSO85/fingerbridge/blob/main/SECURITY.md); orientações para não armazenar imagens biométricas nem registrar templates em logs e criptografar templates persistidos.
+- **[FingerBridge](https://github.com/ALRSO85/fingerbridge):** [política de segurança e relato privado](https://github.com/ALRSO85/fingerbridge/blob/main/SECURITY.md); orientações para não armazenar imagens biométricas, não registrar modelos biométricos em logs e criptografar os modelos armazenados.
 
 ## Temas de interesse
 
-Sistemas distribuídos, produtos SaaS, infraestrutura self-hosted e IA aplicada à engenharia de software.
+Sistemas distribuídos, produtos SaaS, infraestrutura própria e IA aplicada à engenharia de software.
 
 ## GitHub
 
-Parte da minha atuação acontece em repositórios privados e ambientes corporativos. O cartão abaixo é gerado pela [GitHub Action](.github/workflows/profile-summary-cards.yml) e mostra a atividade que o GitHub disponibiliza para este perfil.
+Parte da minha atuação acontece em repositórios privados e ambientes corporativos. O cartão abaixo é gerado pela [automação do GitHub](.github/workflows/profile-summary-cards.yml) e mostra a atividade que o GitHub disponibiliza para este perfil.
 
 <div align="center">
 
