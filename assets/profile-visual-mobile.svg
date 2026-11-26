@@ -1,33 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="64" viewBox="0 0 1200 240" role="img" aria-labelledby="title desc">
   <title id="title">Arquitetura e sistemas digitais</title>
-  <desc id="desc">Composição abstrata azul-marinho com conexões em ciano e verde-água e um detalhe laranja.</desc>
+  <desc id="desc">Composição abstrata em ameixa, lavanda e coral, com conexões que representam arquitetura e sistemas digitais.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#071321" />
-      <stop offset="1" stop-color="#10283b" />
+      <stop stop-color="#171020" />
+      <stop offset=".55" stop-color="#291a36" />
+      <stop offset="1" stop-color="#38203d" />
     </linearGradient>
     <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#20d3c2" stop-opacity=".12" />
-      <stop offset=".52" stop-color="#22c9e8" stop-opacity=".72" />
-      <stop offset="1" stop-color="#20d3c2" stop-opacity=".1" />
+      <stop stop-color="#f28ba8" stop-opacity=".08" />
+      <stop offset=".48" stop-color="#c6a0ff" stop-opacity=".78" />
+      <stop offset="1" stop-color="#ffad91" stop-opacity=".12" />
     </linearGradient>
     <radialGradient id="glow">
-      <stop stop-color="#24cdbd" stop-opacity=".24" />
-      <stop offset="1" stop-color="#24cdbd" stop-opacity="0" />
+      <stop stop-color="#d89af7" stop-opacity=".32" />
+      <stop offset="1" stop-color="#d89af7" stop-opacity="0" />
     </radialGradient>
+    <linearGradient id="fineLine" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ffb39b" stop-opacity=".58" />
+      <stop offset="1" stop-color="#c3a3ff" stop-opacity=".12" />
+    </linearGradient>
   </defs>
-  <rect width="320" height="64" rx="18" fill="url(#background)" />
-  <circle cx="910" cy="118" r="210" fill="url(#glow)" />
-  <path d="M0 190C178 125 254 220 414 158S653 69 806 131s231 63 394-8" fill="none" stroke="url(#ribbon)" stroke-width="2" />
-  <path d="M0 214C171 151 281 237 446 178s246-78 380-28 232 68 374 2" fill="none" stroke="#24cdbd" stroke-opacity=".2" />
-  <path d="M720 0v56l72 42v52l91 53v37M886 0v49l85 50v53l104 61M1033 0v39l88 54v65l79 47" fill="none" stroke="#56d9e8" stroke-opacity=".3" />
-  <g fill="#10283b" stroke="#59dce7" stroke-width="2">
+  <rect width="1200" height="240" rx="18" fill="url(#background)" />
+  <circle cx="940" cy="112" r="230" fill="url(#glow)" />
+  <circle cx="110" cy="-20" r="175" fill="#e67eaa" opacity=".055" />
+  <path d="M-20 189C145 92 284 230 439 157S680 58 824 129s222 69 408-21" fill="none" stroke="url(#ribbon)" stroke-width="3" />
+  <path d="M-10 215C177 125 292 244 461 176s241-81 383-28 221 62 368-4" fill="none" stroke="#f19ab9" stroke-opacity=".24" stroke-width="1.5" />
+  <path d="M720 0v56l72 42v52l91 53v37M886 0v49l85 50v53l104 61M1033 0v39l88 54v65l79 47" fill="none" stroke="url(#fineLine)" stroke-width="1.5" />
+  <g fill="#291a36" stroke="#d8b4ff" stroke-width="2">
     <circle cx="720" cy="56" r="5" /><circle cx="792" cy="98" r="5" />
     <circle cx="792" cy="150" r="5" /><circle cx="883" cy="203" r="5" />
     <circle cx="971" cy="99" r="5" /><circle cx="971" cy="152" r="5" />
     <circle cx="1075" cy="213" r="5" /><circle cx="1121" cy="93" r="5" />
   </g>
-  <circle cx="1033" cy="39" r="5" fill="#ff9d66" />
-  <circle cx="0" cy="190" r="4" fill="#20d3c2" />
-  <circle cx="1198" cy="123" r="4" fill="#20d3c2" />
+  <circle cx="1033" cy="39" r="5" fill="#ffad91" />
+  <circle cx="0" cy="189" r="4" fill="#f19ab9" />
+  <circle cx="1198" cy="123" r="4" fill="#d8b4ff" />
 </svg>

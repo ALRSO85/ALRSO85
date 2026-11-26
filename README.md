@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(min-width: 481px)" srcset="./assets/profile-visual.svg" />
-  <img src="./assets/profile-visual-mobile.svg" alt="Arte abstrata com conexões em tons de azul e verde, representando arquitetura e sistemas digitais" />
+  <img src="./assets/profile-visual-mobile.svg" alt="Arte abstrata em ameixa, lavanda e coral, com conexões que representam arquitetura e sistemas digitais" />
 </picture>
 
 # Suzanna Souza
