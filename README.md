@@ -70,7 +70,7 @@ Plataforma de governança e execução de versões com aprovações, validaçõe
 
 API em C#/.NET para registrar créditos e débitos e consultar saldos atuais ou históricos.
 
-O experimento usa um livro-razão imutável (ledger), escritas idempotentes, padrão outbox transacional e projeção de leitura assíncrona, com .NET 10, ASP.NET Core Minimal APIs, PostgreSQL, JWT e OpenTelemetry. [Explorar o código e a arquitetura](https://github.com/ALRSO85/Financial).
+O experimento usa um livro-razão imutável (ledger), escritas idempotentes, padrão de caixa de saída transacional (outbox) e projeção de leitura assíncrona, com .NET 10, ASP.NET Core Minimal APIs, PostgreSQL, JWT e OpenTelemetry. [Explorar o código e a arquitetura](https://github.com/ALRSO85/Financial).
 
 ## Outros produtos
 
