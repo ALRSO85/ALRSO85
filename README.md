@@ -40,7 +40,7 @@ Gestão e conciliação de horas, jornadas, equipes, férias, fechamentos, audit
 
 ### [SportsForYou](https://sportsforyou.com.br/)
 
-<p align="center"><img src="./assets/sportsforyou-illustration.svg" width="1200" alt="Ilustração conceitual de uma pista com atleta em movimento e marcador de evento." /></p>
+<p align="center"><img src="./assets/sportsforyou-illustration.svg" width="1200" alt="Ilustração conceitual de um troféu sobre um pódio esportivo, ao lado de um calendário de eventos com filtros por modalidade, região e período." /></p>
 
 Calendário público para descobrir eventos esportivos por modalidade, região e período, com fontes consultadas.
 

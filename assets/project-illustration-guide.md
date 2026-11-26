@@ -2,9 +2,9 @@
 
 ## Sistema visual
 
-- Use pranchas de `1200 × 300 px`, com cantos arredondados e borda lavanda média (`#8B6BA6`). O formato horizontal deve continuar legível quando reduzido no README.
-- Mantenha o fundo ameixa em gradiente (`#171020` → `#38203D`) e as duas linhas curvas de conexão na base. Elas fazem a ponte visual com o banner do perfil.
-- Use lavanda (`#C6A0FF`), coral (`#FFAD91`) e branco suave (`#F5EFFF`) como paleta comum. Uma cor de apoio pode diferenciar um produto; reserve o verde-água (`#82E0D1`) para SportsForYou.
+- Use pranchas de `1200 × 300 px`, com cantos arredondados e uma borda que contraste com o painel. O formato horizontal deve continuar legível quando reduzido no README.
+- WorkTime e ReleaseHub usam o fundo ameixa em gradiente (`#171020` → `#38203D`), lavanda (`#C6A0FF`), coral (`#FFAD91`) e branco suave (`#F5EFFF`) para manter a ponte visual com o banner do perfil.
+- SportsForYou usa azul-marinho (`#08182B`), azul profundo (`#0B293B`), turquesa (`#12B9D1`) e verde (`#38D69C`) para conversar com a identidade do produto.
 - Prefira formas geométricas simples, contornos arredondados e um foco principal por ilustração. Mantenha uma hierarquia de três pesos no canvas de `1200 × 300 px`:
   - `1,5–2 px` para linhas ambientais e textura, com opacidade baixa (`0,12–0,23`).
   - `3–5 px` para conexões, bordas internas e pistas estruturais.
@@ -14,7 +14,7 @@
 
 ## Contraste e acessibilidade
 
-- O painel escuro permanece igual nos temas claro e escuro do GitHub; a borda `#8B6BA6` separa a arte nos fundos claros e permanece visível nos escuros. Mantenha os elementos principais em cores claras e saturadas. Opacidades baixas ficam reservadas a linhas e pontos decorativos. Ao revisar, confira os dois extremos do gradiente e a borda contra os fundos claro e escuro da página.
-- Na paleta sólida atual, o menor contraste medido dos acentos contra o ponto mais claro do fundo (`#38203D`) é `6,85:1`. A borda tem contraste de pelo menos `3,29:1` contra o gradiente dos painéis e `4,28:1` contra `#0D1117`; contra branco, `4,42:1`. Reavalie esses valores se as cores mudarem.
+- O painel escuro permanece igual nos temas claro e escuro do GitHub; a borda separa a arte nos fundos claros e continua visível nos escuros. Mantenha os elementos principais em cores claras e saturadas. Opacidades baixas ficam reservadas a linhas e pontos decorativos. Ao revisar, confira os dois extremos do gradiente e a borda contra os fundos claro e escuro da página.
+- Preserve contraste forte entre os elementos focais e o fundo. Reavalie os valores se as cores mudarem.
 - Não use só a cor para diferenciar significado. Dê a cada projeto uma metáfora visual própria e mantenha uma descrição alternativa no README.
 - Cada SVG deve ter `<title>` e `<desc>` concisos, além de dimensões intrínsecas. Escreva o `alt` do README como descrição do conceito mostrado.
