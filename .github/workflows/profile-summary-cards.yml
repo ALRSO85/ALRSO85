@@ -57,7 +57,7 @@ jobs:
               ("Joined GitHub ", "No GitHub há "),
               (" years ago", " anos"),
               (" year ago", " ano"),
-              (" contributions in the last year", " contribuições no último ano"),
+              ("contributions in the last year", "contribuições no último ano"),
           )
           for card in output.glob("*/0-profile-details.svg"):
               svg = card.read_text(encoding="utf-8")
