@@ -29,7 +29,7 @@ Três exemplos de decisões sobre integrações, processamento assíncrono e pub
 
 Aplicação para gestão e conciliação de horas, jornadas, equipes, férias, fechamentos, auditoria e relatórios.
 
-Um dos desafios é sincronizar apontamentos quando o provedor pode processar uma escrita sem confirmar a resposta. O WorkTime reserva uma chave idempotente antes do envio, registra `Unknown` quando não consegue confirmar o resultado e evita reenviar a operação às cegas. As retentativas automáticas ficam restritas a leituras transitórias (`GET` e `HEAD`). Integra-se ao Businessmap/Kanbanize e ao Ahgora, e usa C#, .NET 10, ASP.NET Core, EF Core e SQL Server. Roda em Ubuntu Server, com Cloudflare Tunnel. [Entrar no WorkTime](https://worktime.devforyou.com.br/) · [Ver o showcase técnico](https://github.com/ALRSO85/worktime-showcase).
+Um dos desafios é sincronizar apontamentos quando o provedor pode processar uma escrita sem confirmar a resposta. O WorkTime reserva uma chave idempotente antes do envio, registra `Unknown` quando não consegue confirmar o resultado e evita reenviar a operação às cegas. As retentativas automáticas ficam restritas a leituras transitórias (`GET` e `HEAD`). Integra-se ao Businessmap/Kanbanize e ao Ahgora, e usa C#, .NET 10, ASP.NET Core, EF Core e SQL Server. Roda em Ubuntu Server, com Cloudflare Tunnel. [Entrar no WorkTime](https://worktime.devforyou.com.br/) · [Ver a documentação técnica](https://github.com/ALRSO85/worktime-showcase).
 
 ---
 
@@ -37,7 +37,7 @@ Um dos desafios é sincronizar apontamentos quando o provedor pode processar uma
 
 Plataforma esportiva para atletas, organizadores, comunidades e parceiros, com eventos, perfis e integrações.
 
-No SportsForYou, os módulos de negócio ficam na aplicação web e as tarefas em segundo plano rodam no `Sport.Worker.JobCenter`, um serviço .NET em segundo plano, em contêiner próprio e com verificação de saúde. Essa separação dá ao processamento assíncrono um ciclo operacional independente. A plataforma usa C#, .NET 10, ASP.NET Core, SQL Server e Docker, em Ubuntu Server com Cloudflare Tunnel. [Acessar o produto](https://sportsforyou.com.br/) · [Ver o showcase técnico](https://github.com/ALRSO85/sportsforyou-showcase) · [Ler o artigo sobre arquitetura modular](https://pt.linkedin.com/pulse/arquitetura-modular-aplicada-uma-plataforma-digital-para-souza-g8btf).
+No SportsForYou, os módulos de negócio ficam na aplicação web e as tarefas em segundo plano rodam no `Sport.Worker.JobCenter`, um serviço .NET em segundo plano, em contêiner próprio e com verificação de saúde. Essa separação dá ao processamento assíncrono um ciclo operacional independente. A plataforma usa C#, .NET 10, ASP.NET Core, SQL Server e Docker, em Ubuntu Server com Cloudflare Tunnel. [Acessar o produto](https://sportsforyou.com.br/) · [Ver a documentação técnica](https://github.com/ALRSO85/sportsforyou-showcase) · [Ler o artigo sobre arquitetura modular](https://pt.linkedin.com/pulse/arquitetura-modular-aplicada-uma-plataforma-digital-para-souza-g8btf).
 
 ---
 
@@ -45,7 +45,7 @@ No SportsForYou, os módulos de negócio ficam na aplicação web e as tarefas e
 
 Plataforma instalada em infraestrutura própria para governança e execução de versões, com aprovações, validações e auditoria.
 
-No ReleaseHub, a reversão precisa atualizar o ambiente remoto e o catálogo local. A operação passa pelo estado `Revertendo` e só chega a `Revertida` depois das confirmações; falhas ficam registradas para reconciliação. O serviço usa .NET 10, ASP.NET Core, Docker e SQL Server em Ubuntu Server, com Cloudflare Tunnel. [Entrar no ReleaseHub](https://releasehub.devforyou.com.br/) · [Ver o showcase técnico](https://github.com/ALRSO85/releasehub-showcase).
+No ReleaseHub, a reversão precisa atualizar o ambiente remoto e o catálogo local. A operação passa pelo estado `Revertendo` e só chega a `Revertida` depois das confirmações; falhas ficam registradas para reconciliação. O serviço usa .NET 10, ASP.NET Core, Docker e SQL Server em Ubuntu Server, com Cloudflare Tunnel. [Entrar no ReleaseHub](https://releasehub.devforyou.com.br/) · [Ver a documentação técnica](https://github.com/ALRSO85/releasehub-showcase).
 
 ## Experimento técnico
 
@@ -61,13 +61,13 @@ O experimento usa um livro-razão imutável (ledger), escritas idempotentes, pad
 
 Plataforma para consulta regional de experiências de entrega.
 
-A demonstração usa dados sintéticos e está em modo de consulta; não representa cobertura real de entregas. Novos cadastros e relatos estão desativados. O projeto usa ASP.NET Core MVC, Ubuntu Server e Docker. [Abrir a demonstração](https://chegouinteiro.devforyou.com.br/) · [Ver o showcase técnico](https://github.com/ALRSO85/chegouinteiro-showcase).
+A demonstração usa dados sintéticos e está em modo de consulta; não representa cobertura real de entregas. Novos cadastros e relatos estão desativados. O projeto usa ASP.NET Core MVC, Ubuntu Server e Docker. [Abrir a demonstração](https://chegouinteiro.devforyou.com.br/) · [Ver a documentação técnica](https://github.com/ALRSO85/chegouinteiro-showcase).
 
 ### [Doguinhos 220v](https://doguinhos220v.com.br/)
 
 Portal pet com artigos, eventos, vídeos e recomendações de produtos.
 
-O portal foi desenvolvido pela DevsForYou com PHP 8.5 e Bootstrap 5.3, e roda em Ubuntu Server com Apache. [Acessar o portal](https://doguinhos220v.com.br/) · [Ver o showcase técnico](https://github.com/ALRSO85/doguinhos-showcase).
+O portal foi desenvolvido pela DevsForYou com PHP 8.5 e Bootstrap 5.3, e roda em Ubuntu Server com Apache. [Acessar o portal](https://doguinhos220v.com.br/) · [Ver a documentação técnica](https://github.com/ALRSO85/doguinhos-showcase).
 
 ## Código aberto
 
