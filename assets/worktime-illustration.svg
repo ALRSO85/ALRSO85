@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">WorkTime — gestão e conciliação de horas</title>
+  <desc id="desc">Ilustração conceitual de um calendário organizado conectado a um relógio.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#171020"/><stop offset="1" stop-color="#38203d"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffad91"/><stop offset="1" stop-color="#d99cff"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#d99cff" stop-opacity=".28"/><stop offset="1" stop-color="#d99cff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1198" height="298" x="1" y="1" rx="22" fill="url(#bg)" stroke="#8b6ba6" stroke-width="2"/>
+  <circle cx="925" cy="145" r="245" fill="url(#glow)"/>
+  <path d="M0 246C170 156 300 288 460 218s245-80 388-30 220 62 352 12" fill="none" stroke="#c6a0ff" stroke-opacity=".16" stroke-width="2"/>
+  <path d="M0 270C185 207 305 300 490 228s278-92 422-38 180 49 288 8" fill="none" stroke="#ffad91" stroke-opacity=".12" stroke-width="1.5"/>
+  <g fill="#f5efff" fill-opacity=".72"><circle cx="100" cy="75" r="3"/><circle cx="174" cy="215" r="2"/><circle cx="1080" cy="68" r="3"/><circle cx="1120" cy="225" r="2"/></g>
+  <g transform="translate(350 48)">
+    <rect x="0" y="12" width="390" height="214" rx="18" fill="#1d1628" stroke="#9a82af" stroke-opacity=".7" stroke-width="2"/>
+    <path d="M0 64h390" stroke="#9a82af" stroke-opacity=".45" stroke-width="2"/>
+    <path d="M48 0v27M112 0v27" stroke="#ffad91" stroke-linecap="round" stroke-width="8"/>
+    <rect x="31" y="83" width="55" height="12" rx="6" fill="#f5efff" fill-opacity=".55"/>
+    <rect x="105" y="83" width="55" height="12" rx="6" fill="#f5efff" fill-opacity=".55"/>
+    <rect x="179" y="83" width="55" height="12" rx="6" fill="#f5efff" fill-opacity=".55"/>
+    <rect x="253" y="83" width="55" height="12" rx="6" fill="#f5efff" fill-opacity=".55"/>
+    <rect x="31" y="112" width="68" height="23" rx="7" fill="#c6a0ff" fill-opacity=".9"/>
+    <rect x="112" y="112" width="47" height="23" rx="7" fill="#ffad91" fill-opacity=".9"/>
+    <rect x="179" y="112" width="96" height="23" rx="7" fill="#c6a0ff" fill-opacity=".46"/>
+    <rect x="31" y="148" width="47" height="23" rx="7" fill="#ffad91" fill-opacity=".6"/>
+    <rect x="91" y="148" width="96" height="23" rx="7" fill="#c6a0ff" fill-opacity=".88"/>
+    <rect x="200" y="148" width="75" height="23" rx="7" fill="#ffad91" fill-opacity=".78"/>
+    <rect x="31" y="184" width="96" height="23" rx="7" fill="#c6a0ff" fill-opacity=".55"/>
+    <rect x="140" y="184" width="68" height="23" rx="7" fill="#ffad91" fill-opacity=".9"/>
+  </g>
+  <g transform="translate(795 150)">
+    <circle r="91" fill="#21182d" stroke="#c6a0ff" stroke-width="5"/>
+    <circle r="75" fill="none" stroke="#f5efff" stroke-opacity=".18" stroke-width="2"/>
+    <path d="M0-66v12M66 0H54M0 66V54M-66 0h12" stroke="#f5efff" stroke-linecap="round" stroke-width="5"/>
+    <path d="M0 0V-43M0 0l36 21" stroke="url(#accent)" stroke-linecap="round" stroke-width="8"/>
+    <circle r="9" fill="#ffad91"/>
+  </g>
+  <path d="M736 174c22 13 35 21 48 25" fill="none" stroke="#ffad91" stroke-width="3" stroke-dasharray="5 8"/>
+</svg>

@@ -1,21 +1,21 @@
 <div align="center">
 
 <picture>
-  <source media="(min-width: 481px)" srcset="./assets/profile-visual.svg" />
-  <img src="./assets/profile-visual-mobile.svg" alt="Arte abstrata em ameixa, lavanda e coral, com conexões que representam arquitetura e sistemas digitais" />
+  <source media="(prefers-reduced-motion: reduce) and (min-width: 481px)" srcset="./assets/profile-visual-cyberpunk-desktop.png" />
+  <source media="(min-width: 481px)" srcset="./assets/profile-visual-cyberpunk-desktop.gif" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile-visual-cyberpunk-mobile.png" />
+  <img src="./assets/profile-visual-cyberpunk-mobile.gif" alt="Ilustração cyberpunk anime de mulher confiante com cabelo magenta e ciano, jaqueta techwear e lâmina neon; o brilho percorre os circuitos" />
 </picture>
 
 # Suzanna Souza
 
-**Arquiteta de Software · Engenheira de Software Sênior · Engenheira de IA**
+**Arquiteta de Software · Engenheira de Software Sênior**
 
-**.NET · Sistemas Distribuídos · Arquitetura em Nuvem · Produtos Digitais**
+.NET · Sistemas Distribuídos · Arquitetura em Nuvem · Engenharia de IA
 
-Na [DevsForYou](https://devsforyou.com.br/), respondo pelo desenho, pela arquitetura e pela construção de WorkTime, SportsForYou e ReleaseHub, com foco em .NET e modernização de produtos.
+Na [DevsForYou](https://devsforyou.com.br/), desenho e construo WorkTime, SportsForYou e ReleaseHub, com foco em arquitetura e modernização de produtos.
 
-[LinkedIn](https://www.linkedin.com/in/suzanna-souza-software-engineer/) · [DevsForYou](https://devsforyou.com.br/) · [SportsForYou](https://sportsforyou.com.br/)
-
-**Casos técnicos:** [WorkTime — integração idempotente](https://github.com/ALRSO85/worktime-showcase#integra%C3%A7%C3%B5es-resilientes) · [SportsForYou — processador em segundo plano independente](https://github.com/ALRSO85/sportsforyou-showcase#background-processing) · [ReleaseHub — reversão com reconciliação](https://github.com/ALRSO85/releasehub-showcase#recupera%C3%A7%C3%A3o-de-rollback) · [Chegou Inteiro — privacidade e agregação regional](https://github.com/ALRSO85/chegouinteiro-showcase#decis%C3%B5es-de-engenharia)
+[Ver projetos em destaque](#projetos-em-destaque) · [LinkedIn](https://www.linkedin.com/in/suzanna-souza-software-engineer/) · [DevsForYou](https://devsforyou.com.br/)
 
 </div>
 
@@ -27,25 +27,42 @@ Três exemplos de decisões sobre integrações, processamento assíncrono e pub
 
 ### [WorkTime](https://worktime.devforyou.com.br/)
 
-Aplicação para gestão e conciliação de horas, jornadas, equipes, férias, fechamentos, auditoria e relatórios.
+<p align="center"><img src="./assets/worktime-illustration.svg" width="1200" alt="Ilustração conceitual de um calendário conectado a um relógio, representando a gestão de horas do WorkTime." /></p>
 
-Um dos desafios é sincronizar apontamentos quando o provedor pode processar uma escrita sem confirmar a resposta. O WorkTime reserva uma chave idempotente antes do envio, registra `Unknown` quando não consegue confirmar o resultado e evita reenviar a operação às cegas. As retentativas automáticas ficam restritas a leituras transitórias (`GET` e `HEAD`). Integra-se ao Businessmap/Kanbanize e ao Ahgora, e usa C#, .NET 10, ASP.NET Core, EF Core e SQL Server. Roda em Ubuntu Server, com Cloudflare Tunnel. [Entrar no WorkTime](https://worktime.devforyou.com.br/) · [Ver a documentação técnica](https://github.com/ALRSO85/worktime-showcase).
+Gestão e conciliação de horas, jornadas, equipes, férias, fechamentos, auditoria e relatórios.
+
+- **Desafio:** o provedor pode processar uma escrita sem confirmar a resposta.
+- **Abordagem:** reserva uma chave idempotente antes do envio; se o resultado é incerto, registra `Unknown` e não reenvia a operação às cegas. As retentativas automáticas ficam restritas a leituras transitórias (`GET` e `HEAD`).
+
+**Stack:** `C#` · `.NET 10` · `ASP.NET Core` · `EF Core` · `SQL Server` · **Integrações:** Businessmap/Kanbanize · Ahgora · **Operação:** Ubuntu Server · Cloudflare Tunnel · [Documentação técnica](https://github.com/ALRSO85/worktime-showcase).
 
 ---
 
 ### [SportsForYou](https://sportsforyou.com.br/)
 
-Plataforma esportiva para atletas, organizadores, comunidades e parceiros, com eventos, perfis e integrações.
+<p align="center"><img src="./assets/sportsforyou-illustration.svg" width="1200" alt="Ilustração conceitual de uma pista com atleta em movimento e marcador de evento." /></p>
 
-No SportsForYou, os módulos de negócio ficam na aplicação web e as tarefas em segundo plano rodam no `Sport.Worker.JobCenter`, um serviço .NET em segundo plano, em contêiner próprio e com verificação de saúde. Essa separação dá ao processamento assíncrono um ciclo operacional independente. A plataforma usa C#, .NET 10, ASP.NET Core, SQL Server e Docker, em Ubuntu Server com Cloudflare Tunnel. [Acessar o produto](https://sportsforyou.com.br/) · [Ver a documentação técnica](https://github.com/ALRSO85/sportsforyou-showcase) · [Ler o artigo sobre arquitetura modular](https://pt.linkedin.com/pulse/arquitetura-modular-aplicada-uma-plataforma-digital-para-souza-g8btf).
+Calendário público para descobrir eventos esportivos por modalidade, região e período, com fontes consultadas.
+
+[Explorar o calendário público](https://sportsforyou.com.br/eventos/calendario/) · [Conhecer o produto](https://sportsforyou.com.br/)
+
+- **Desafio:** executar tarefas em segundo plano sem depender do ciclo de vida da aplicação web.
+- **Abordagem:** o `Sport.Worker.JobCenter` roda como serviço .NET em contêiner próprio, com verificação de saúde.
+
+**Stack:** `C#` · `.NET 10` · `ASP.NET Core` · `SQL Server` · `Docker` · **Operação:** Ubuntu Server · Cloudflare Tunnel · [Documentação técnica](https://github.com/ALRSO85/sportsforyou-showcase) · [Artigo sobre arquitetura modular](https://pt.linkedin.com/pulse/arquitetura-modular-aplicada-uma-plataforma-digital-para-souza-g8btf).
 
 ---
 
 ### [ReleaseHub](https://releasehub.devforyou.com.br/)
 
-Plataforma instalada em infraestrutura própria para governança e execução de versões, com aprovações, validações e auditoria.
+<p align="center"><img src="./assets/releasehub-illustration.svg" width="1200" alt="Ilustração conceitual de um pacote aprovado em uma etapa de validação e encaminhado para um ambiente representado por uma torre de servidores." /></p>
 
-No ReleaseHub, a reversão precisa atualizar o ambiente remoto e o catálogo local. A operação passa pelo estado `Revertendo` e só chega a `Revertida` depois das confirmações; falhas ficam registradas para reconciliação. O serviço usa .NET 10, ASP.NET Core, Docker e SQL Server em Ubuntu Server, com Cloudflare Tunnel. [Entrar no ReleaseHub](https://releasehub.devforyou.com.br/) · [Ver a documentação técnica](https://github.com/ALRSO85/releasehub-showcase).
+Plataforma de governança e execução de versões com aprovações, validações e auditoria.
+
+- **Desafio:** uma reversão precisa atualizar o ambiente remoto e o catálogo local.
+- **Abordagem:** a operação só muda de `Revertendo` para `Revertida` após as confirmações; falhas ficam registradas para reconciliação.
+
+**Stack:** `.NET 10` · `ASP.NET Core` · `Docker` · `SQL Server` · **Operação:** Ubuntu Server · Cloudflare Tunnel · [Documentação técnica](https://github.com/ALRSO85/releasehub-showcase).
 
 ## Experimento técnico
 
