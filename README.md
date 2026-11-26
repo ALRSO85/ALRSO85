@@ -5,13 +5,13 @@
   <img src="./assets/profile-visual-mobile.svg" alt="Arte abstrata com conexões em tons de azul e verde, representando arquitetura e sistemas digitais" />
 </picture>
 
-# Alexandre Souza
+# Suzanna Souza
 
 **Software Architect · Senior Software Engineer · AI Engineer**
 
 **.NET · Distributed Systems · Cloud Architecture · AI Engineering · Digital Products**
 
-Na [DevsForYou](https://devsforyou.com.br/), sou responsável pelo desenho, pela arquitetura e pela construção de WorkTime, SportsForYou e ReleaseHub. Trabalho principalmente com .NET, arquitetura de sistemas e modernização de produtos.
+Sou arquiteta de software e engenheira de software sênior. Na [DevsForYou](https://devsforyou.com.br/), respondo pelo desenho, pela arquitetura e pela construção de WorkTime, SportsForYou e ReleaseHub. Trabalho principalmente com .NET, arquitetura de sistemas e modernização de produtos.
 
 [LinkedIn](https://www.linkedin.com/in/alexandre-roberto-souza-software-engineer/) · [DevsForYou](https://devsforyou.com.br/) · [SportsForYou](https://sportsforyou.com.br/)
 
@@ -121,7 +121,7 @@ Parte da minha atuação acontece em repositórios privados e ambientes corporat
 
 ## Contato
 
-Estou aberto a conversar sobre arquitetura, engenharia de software e produtos digitais.
+Estou aberta a conversar sobre arquitetura, engenharia de software e produtos digitais.
 
 - [LinkedIn](https://www.linkedin.com/in/alexandre-roberto-souza-software-engineer/)
 - [DevsForYou](https://devsforyou.com.br/)

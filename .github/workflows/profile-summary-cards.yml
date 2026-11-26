@@ -41,7 +41,7 @@ jobs:
           THEME: ""
           ANIMATION: ""
           DURATION: ""
-          NAME: "Alexandre Souza"
+          NAME: "Suzanna Souza"
 
       - name: Generate narrow-screen activity cards
         shell: bash
