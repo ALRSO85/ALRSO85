@@ -31,8 +31,7 @@ Três exemplos de decisões sobre integrações, processamento assíncrono e pub
 
 Gestão e conciliação de horas, jornadas, equipes, férias, fechamentos, auditoria e relatórios.
 
-- **Desafio:** o provedor pode processar uma escrita sem confirmar a resposta.
-- **Abordagem:** reserva uma chave idempotente antes do envio; se o resultado é incerto, registra `Unknown` e não reenvia a operação às cegas. As retentativas automáticas ficam restritas a leituras transitórias (`GET` e `HEAD`).
+Quando o provedor processa uma escrita sem confirmar a resposta, reenviar pode duplicar o registro. No WorkTime, a chave idempotente é reservada antes do envio; se o resultado fica incerto, a tentativa recebe o estado `Unknown` e não é reenviada às cegas. As retentativas automáticas ficam limitadas a leituras transitórias (`GET` e `HEAD`).
 
 **Stack:** `C#` · `.NET 10` · `ASP.NET Core` · `EF Core` · `SQL Server` · **Integrações:** Businessmap/Kanbanize · Ahgora · **Operação:** Ubuntu Server · Cloudflare Tunnel · [Documentação técnica](https://github.com/ALRSO85/worktime-showcase).
 
@@ -46,8 +45,7 @@ Calendário público para descobrir eventos esportivos por modalidade, região e
 
 [Explorar o calendário público](https://sportsforyou.com.br/eventos/calendario/) · [Conhecer o produto](https://sportsforyou.com.br/)
 
-- **Desafio:** executar tarefas em segundo plano sem depender do ciclo de vida da aplicação web.
-- **Abordagem:** o `Sport.Worker.JobCenter` roda como serviço .NET em contêiner próprio, com verificação de saúde.
+A separação permite implantar e monitorar o processamento em segundo plano de forma independente da aplicação web. No SportsForYou, o `Sport.Worker.JobCenter` roda como serviço .NET em contêiner próprio, com uma verificação de saúde independente.
 
 **Stack:** `C#` · `.NET 10` · `ASP.NET Core` · `SQL Server` · `Docker` · **Operação:** Ubuntu Server · Cloudflare Tunnel · [Documentação técnica](https://github.com/ALRSO85/sportsforyou-showcase) · [Artigo sobre arquitetura modular](https://pt.linkedin.com/pulse/arquitetura-modular-aplicada-uma-plataforma-digital-para-souza-g8btf).
 
@@ -59,8 +57,7 @@ Calendário público para descobrir eventos esportivos por modalidade, região e
 
 Plataforma de governança e execução de versões com aprovações, validações e auditoria.
 
-- **Desafio:** uma reversão precisa atualizar o ambiente remoto e o catálogo local.
-- **Abordagem:** a operação só muda de `Revertendo` para `Revertida` após as confirmações; falhas ficam registradas para reconciliação.
+Uma reversão precisa atualizar o ambiente remoto e o catálogo local. No ReleaseHub, a release é reservada como `Revertendo` antes da alteração remota; o catálogo só confirma a versão anterior como `Revertida` após a confirmação do ambiente. Falhas ficam explícitas e podem ser reconciliadas ou retomadas com uma nova operação idempotente.
 
 **Stack:** `.NET 10` · `ASP.NET Core` · `Docker` · `SQL Server` · **Operação:** Ubuntu Server · Cloudflare Tunnel · [Documentação técnica](https://github.com/ALRSO85/releasehub-showcase).
 
