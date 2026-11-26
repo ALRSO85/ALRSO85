@@ -94,7 +94,7 @@ O portal foi desenvolvido pela DevsForYou com PHP 8.5 e Bootstrap 5.3, e roda em
 
 ## Engenharia de IA
 
-Tenho aprofundado meus estudos em engenharia de IA, com foco em aplicações de LLMs no desenvolvimento de software. No artigo sobre [arquitetura com IA desde a concepção no ecossistema .NET](https://pt.linkedin.com/pulse/ai-first-software-architecture-o-que-muda-quando-artificial-souza-mjcgf), escrevi sobre orquestração, busca semântica e mecanismos de controle.
+Tenho aprofundado meus estudos em engenharia de IA, com foco em aplicações de modelos de linguagem de grande porte (LLMs) no desenvolvimento de software. No artigo sobre [arquitetura com IA desde a concepção no ecossistema .NET](https://pt.linkedin.com/pulse/ai-first-software-architecture-o-que-muda-quando-artificial-souza-mjcgf), escrevi sobre orquestração, busca semântica e mecanismos de controle.
 
 ## Competências técnicas
 
