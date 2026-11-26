@@ -4,7 +4,7 @@
   <source media="(prefers-reduced-motion: reduce) and (min-width: 481px)" srcset="./assets/profile-visual-cyberpunk-desktop.png" />
   <source media="(min-width: 481px)" srcset="./assets/profile-visual-cyberpunk-desktop.gif" />
   <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile-visual-cyberpunk-mobile.png" />
-  <img src="./assets/profile-visual-cyberpunk-mobile.gif" alt="Ilustração cyberpunk anime de mulher confiante com cabelo magenta e ciano, jaqueta techwear e lâmina neon; o brilho percorre os circuitos" />
+  <img src="./assets/profile-visual-cyberpunk-mobile.gif" alt="Banner animado em estilo futurista, com uma figura feminina diante de circuitos neon em tons de magenta e ciano" />
 </picture>
 
 # Suzanna Souza
