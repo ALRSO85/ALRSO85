@@ -9,6 +9,7 @@ O cartão exibido no README é gerado pela GitHub Action definida em `.github/wo
 - Uma execução diária está agendada para 03:20 UTC (00:20 no horário de Brasília).
 - Os cartões são gerados em `profile-summary-card-output/` e enviados para a branch `main`.
 - Todos os temas são gerados; o README escolhe entre os temas claro e escuro conforme a preferência do visitante.
+- O cartão de atividade usa a animação discreta `draw`; visitantes com movimento reduzido recebem a versão estática.
 
 ## Token
 

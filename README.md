@@ -9,15 +9,13 @@
 
 **Software Architect · Senior Software Engineer · AI Engineer**
 
-**.NET · Distributed Systems · Cloud Architecture · AI Engineering · Digital Products**
+**.NET · Distributed Systems · Cloud Architecture · Digital Products**
 
-Sou arquiteta de software e engenheira de software sênior. Na [DevsForYou](https://devsforyou.com.br/), respondo pelo desenho, pela arquitetura e pela construção de WorkTime, SportsForYou e ReleaseHub. Trabalho principalmente com .NET, arquitetura de sistemas e modernização de produtos.
+Na [DevsForYou](https://devsforyou.com.br/), respondo pelo desenho, pela arquitetura e pela construção de WorkTime, SportsForYou e ReleaseHub, com foco em .NET e modernização de produtos.
 
 [LinkedIn](https://www.linkedin.com/in/suzanna-souza-software-engineer/) · [DevsForYou](https://devsforyou.com.br/) · [SportsForYou](https://sportsforyou.com.br/)
 
 **Cases técnicos:** [WorkTime — integração idempotente](https://github.com/ALRSO85/worktime-showcase#integra%C3%A7%C3%B5es-resilientes) · [SportsForYou — worker independente](https://github.com/ALRSO85/sportsforyou-showcase#background-processing) · [ReleaseHub — rollback com reconciliação](https://github.com/ALRSO85/releasehub-showcase#recupera%C3%A7%C3%A3o-de-rollback)
-
-**Navegação:** [Cases](#projetos-em-destaque) · [Experimento técnico](#experimento-t%C3%A9cnico) · [Outros produtos](#outros-produtos) · [Open source](#open-source) · [Engenharia de IA](#engenharia-de-ia) · [Competências](#compet%C3%AAncias-t%C3%A9cnicas) · [Segurança](#seguran%C3%A7a-aplicada) · [GitHub](#github) · [Contato](#contato)
 
 </div>
 
@@ -31,7 +29,7 @@ Três exemplos de decisões sobre integrações, processamento assíncrono e rel
 
 Aplicação para gestão e conciliação de horas, jornadas, equipes, férias, fechamentos, auditoria e relatórios.
 
-Um dos desafios é sincronizar apontamentos quando o provedor pode processar a escrita sem confirmar a resposta. O WorkTime reserva uma chave idempotente antes do envio, registra `Unknown` quando não consegue confirmar o resultado e não repete a operação às cegas. Os retries automáticos ficam restritos a leituras transitórias `GET` e `HEAD`. Integra-se ao Businessmap/Kanbanize e ao Ahgora, e usa C#, .NET 10, ASP.NET Core, EF Core e SQL Server. Roda em Ubuntu Server, com Cloudflare Tunnel. [Acessar o WorkTime](https://worktime.devforyou.com.br/) · [Ver o showcase técnico](https://github.com/ALRSO85/worktime-showcase).
+Um dos desafios é sincronizar apontamentos quando o provedor pode processar uma escrita sem confirmar a resposta. O WorkTime reserva uma chave idempotente antes do envio, registra `Unknown` quando não consegue confirmar o resultado e evita reenviar a operação às cegas. As retentativas automáticas ficam restritas a leituras transitórias (`GET` e `HEAD`). Integra-se ao Businessmap/Kanbanize e ao Ahgora, e usa C#, .NET 10, ASP.NET Core, EF Core e SQL Server. Roda em Ubuntu Server, com Cloudflare Tunnel. [Entrar no WorkTime](https://worktime.devforyou.com.br/) · [Ver o showcase técnico](https://github.com/ALRSO85/worktime-showcase).
 
 ---
 
@@ -47,7 +45,7 @@ No SportsForYou, os módulos de negócio ficam na aplicação web e os jobs roda
 
 Plataforma self-hosted para governança e execução de releases, com aprovações, validações e auditoria.
 
-No ReleaseHub, o rollback precisa atualizar o ambiente remoto e o catálogo local. A operação passa por `Revertendo` e só chega a `Revertida` depois das confirmações; falhas ficam registradas para reconciliação. O serviço usa .NET 10, ASP.NET Core, Docker e SQL Server em Ubuntu Server, com Cloudflare Tunnel. [Acessar o ReleaseHub](https://releasehub.devforyou.com.br/) · [Ver o showcase técnico](https://github.com/ALRSO85/releasehub-showcase).
+No ReleaseHub, o rollback precisa atualizar o ambiente remoto e o catálogo local. A operação passa por `Revertendo` e só chega a `Revertida` depois das confirmações; falhas ficam registradas para reconciliação. O serviço usa .NET 10, ASP.NET Core, Docker e SQL Server em Ubuntu Server, com Cloudflare Tunnel. [Entrar no ReleaseHub](https://releasehub.devforyou.com.br/) · [Ver o showcase técnico](https://github.com/ALRSO85/releasehub-showcase).
 
 ## Experimento técnico
 

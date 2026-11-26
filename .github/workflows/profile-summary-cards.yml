@@ -39,7 +39,7 @@ jobs:
           AUTO_PUSH: false
           # Generate all themes so the README can adapt to GitHub's light/dark setting.
           THEME: ""
-          ANIMATION: ""
+          ANIMATION: "draw"
           DURATION: ""
           NAME: "Suzanna Souza"
 
